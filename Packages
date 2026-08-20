@@ -1,3 +1,16 @@
+Package: ActiveLinux
+Version: 1.2.0
+Architecture: amd64
+Maintainer: MrGlockenspiel <MrGlockenspiel@noreply.github.com>
+Filename: debs/activate-linux_1.2.0_amd64.deb
+Size: 18682
+MD5sum: 77b37d6af8c24bc8fbed5eaf4ab17ec0
+SHA1: a9eba849a6e83d6a0f7b1fa6f99bf32ca6db7e06
+SHA256: 1b398bf3b866071752d8f86b5ced982ddd2e3f10082045a53a10bd09e5213cfd
+Section: utils
+Priority: optional
+Description: 修复 Linux 没有 激活水印 的 Bug
+
 Package: BSoD
 Version: 1.0.1
 Architecture: amd64
