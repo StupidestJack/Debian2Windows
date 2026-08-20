@@ -38,14 +38,14 @@ Priority: optional
 Description: 修复 Linux 没有「应用程序错误」窗口的 Bug
 
 Package: regedit
-Version: 1.0
+Version: 1.0-1
 Architecture: amd64
 Maintainer: heyManNice <heyManNice@noreply.github.com>
-Filename: debs/regedit_1.0_amd64.deb
-Size: 141834
-MD5sum: c99683969368c5245fe937d466e682ee
-SHA1: 922cc0d320b7ed5e81dee4b617d5b29c4a4ea2a5
-SHA256: 8c94b06e789ffd5adc84a6ea51c41295dc5386b39478b7044aaa8499fd8233b7
+Filename: debs/regedit_1.0-1_amd64.deb
+Size: 140296
+MD5sum: 9277f2a4f272fedb35400496bfad33ac
+SHA1: c080569ef9a37f9c41ea0880c3b2a5ffa93cce49
+SHA256: 68fb3bebcd7d3e47ce28040c7d4db25b899efc47aa69f59d9e59485970e904d9
 Section: utils
 Priority: optional
 Description: 修复 Linux 没有 注册表编辑器 的 Bug
