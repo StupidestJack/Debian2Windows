@@ -405,12 +405,12 @@ Package: windowshit
 Version: 0.1.1
 Architecture: amd64
 Maintainer: niugnep <penguin@niugnep.idv.tw>
-Depends: ws-choice, ws-clip, ws-control, ws-expand, ws-fc, ws-findstr, ws-getmac, ws-hostname-win, ws-ipconfig, ws-makecab, ws-more-win, ws-pathping, ws-ping-win, ws-replace, ws-robocopy, ws-run.sh, ws-shutdown, ws-sort-win, ws-systeminfo, ws-taskkill, ws-tasklist, ws-tracert, ws-tree-win, ws-type-win, ws-ver, ws-where-win, ws-whoami-win
+Depends: ws-choice, ws-clip, ws-control, ws-expand, ws-fc, ws-findstr, ws-getmac, ws-hostname-win, ws-ipconfig, ws-makecab, ws-more-win, ws-pathping, ws-ping-win, ws-replace, ws-robocopy, ws-shutdown, ws-sort-win, ws-systeminfo, ws-taskkill, ws-tasklist, ws-tracert, ws-tree-win, ws-type-win, ws-ver, ws-where-win, ws-whoami-win
 Filename: debs/windowshit_0.1.1_amd64.deb
-Size: 868
-MD5sum: dfc938a15d0af55aca05d042fb8efb71
-SHA1: c9a52c90630ee0297e4b2292b4f768c0ff16ac4d
-SHA256: 95948f8b256f80eafd8ea85b6e52dad2efc7592c334549fb805a85bd69481c66
+Size: 864
+MD5sum: cbde003e6883d0a9932af8c035510da1
+SHA1: 7dd546daeffbfc37cd92d73aba95cbb8a9b85218
+SHA256: 30eb97777ab378a8d647d183b535b0fc16246f5a1b62f4a8528fca76208005b4
 Section: utils
 Priority: optional
 Description: 修复 Linux 的 24 個 Bug
