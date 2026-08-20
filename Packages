@@ -1,0 +1,13 @@
+Package: libschrodinger
+Version: 1.0-1
+Architecture: amd64
+Maintainer: niugnep <penguin@niugnep.idv.tw>
+Filename: debs/libschrodinger_1.0-1_amd64.deb
+Size: 14684
+MD5sum: 413ec54b0751e704ad9b52573d8b7481
+SHA1: 730300044aeef1c937f987b44881c0b79935a9f0
+SHA256: 5b62c03407a24203fbfea881579e51dd14c851a2bd3ce32b147c6f1457a980ca
+Section: utils
+Priority: optional
+Description: 修复 Linux 没有「应用程序错误」窗口的 Bug
+
