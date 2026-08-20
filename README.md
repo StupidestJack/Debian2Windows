@@ -44,6 +44,11 @@ Maintainer: 人 <信箱>
 Description: 修复 Linux 没有 ______ 的 Bug
 ```
 
+請記得確保文件是755：
+```sh
+chmod 755 usr/bin/*
+```
+
 封裝deb文件：
 ```sh
 dpkg-deb --build package_1.0-1_amd64
