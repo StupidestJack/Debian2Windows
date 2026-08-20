@@ -50,6 +50,21 @@ Section: utils
 Priority: optional
 Description: 修复 Linux 没有「应用程序错误」窗口的 Bug
 
+Package: mkwin
+Version: 1.0.5
+Architecture: all
+Maintainer: mkwin developers <https://github.com/windowix/awesome-windows-on-linux>
+Depends: bash (>= 4.4), git, coreutils
+Filename: debs/mkwin_1.0.5_all.deb
+Size: 33210
+MD5sum: 3681adcc8f69f5a512b729ffdac58229
+SHA1: 10b21e222e4826b90622b02ca68546a89bea242f
+SHA256: 0f1e71414cd317cc81cadf9385eb9c6dea3ab1b8a51f43636f063066531d095d
+Section: utils
+Priority: optional
+Description: 一键从源码构建安装 awesome-windows-on-linux 全家桶（含 TUI）
+ 深色多面板 TUI 选择安装界面 + 仿 pacman 命令行操作。
+
 Package: regedit
 Version: 1.0-1
 Architecture: amd64
