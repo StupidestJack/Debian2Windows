@@ -105,6 +105,19 @@ Section: utils
 Priority: optional
 Description: 修复 Linux 的 24 個 Bug
 
+Package: winver
+Version: 0.1-1
+Architecture: amd64
+Maintainer: niugnep <penguin@niugnep.idv.tw>
+Filename: debs/winver_1.0-1_amd64.deb
+Size: 229940
+MD5sum: 529f0643fe8c545f9f5909caff741784
+SHA1: 52c7fc7d432a3fece4f2168e11d55b1b1a36bfca
+SHA256: 55af53b99941c03a9e362c1d0741193931b3b3162a7e2fb17e765a727f76b3c0
+Section: utils
+Priority: optional
+Description: 修复 Linux 没有 winver 的 Bug
+
 Package: ws-choice
 Version: 0.1.1
 Architecture: amd64
