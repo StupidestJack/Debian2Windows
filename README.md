@@ -75,5 +75,6 @@ apt-ftparchive release . > Release
 項目開發者：
  * [@LyCecilion](https://github.com/LyCecilion)
  * [@ChenPi11](https://github.com/ChenPi11)
+ * [@heyManNice](https://github.com/heyManNice)
 
 最後感謝我們的教學者Gemini，整個文件幾乎都它寫的

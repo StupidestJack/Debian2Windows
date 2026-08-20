@@ -1,8 +1,21 @@
+Package: BSoD
+Version: 1.0.1
+Architecture: amd64
+Maintainer: heyManNice <heyManNice@noreply.github.com>
+Filename: ./debs/bsod-v1.0.1-linux-x86_64.deb
+Size: 32314
+MD5sum: 6f1cfe2373b92c2ee3c1334d3399e6dd
+SHA1: 24838891c7b53fbed875d05d6e971d22e38f828f
+SHA256: 174edc0cc2bc094258340320ad6f20d30e8d85f2f5c3dd0288a16d2727b6a50d
+Section: utils
+Priority: optional
+Description: 修复了 Linux 没有 BSoD 的 Bug
+
 Package: cmd
 Version: 0.1-1
 Architecture: amd64
 Maintainer: niugnep <penguin@niugnep.idv.tw>
-Filename: debs/cmd_0.1-2_amd64.deb
+Filename: ./debs/cmd_0.1-2_amd64.deb
 Size: 92688
 MD5sum: a8c2a00a3a17bbd576b882fe49dc57d9
 SHA1: 19ecf47801791bc0d4443aa3f7781c4a655d1c9b
@@ -15,7 +28,7 @@ Package: libschrodinger
 Version: 1.0-1
 Architecture: amd64
 Maintainer: niugnep <penguin@niugnep.idv.tw>
-Filename: debs/libschrodinger_1.0-1_amd64.deb
+Filename: ./debs/libschrodinger_1.0-1_amd64.deb
 Size: 14684
 MD5sum: 413ec54b0751e704ad9b52573d8b7481
 SHA1: 730300044aeef1c937f987b44881c0b79935a9f0
