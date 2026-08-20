@@ -1,3 +1,16 @@
+Package: cmd
+Version: 0.1-1
+Architecture: amd64
+Maintainer: niugnep <penguin@niugnep.idv.tw>
+Filename: debs/cmd_0.1-1_amd64.deb
+Size: 92432
+MD5sum: 18571c2311246411f63253f02f9505e3
+SHA1: c8e99e431042ded2dae52a72840463a800de9813
+SHA256: e2c9653440b261841f42736d59ef69c2a95911a15e636f047190b73f9e85d3df
+Section: utils
+Priority: optional
+Description: 修复 Linux 没有 cmd 的 Bug
+
 Package: libschrodinger
 Version: 1.0-1
 Architecture: amd64
