@@ -76,6 +76,7 @@ apt-ftparchive release . > Release
  * [@LyCecilion](https://github.com/LyCecilion)
  * [@ChenPi11](https://github.com/ChenPi11)
  * [@heyManNice](https://github.com/heyManNice)
+ * [@HelloAIXIAOJI](https://github.com/HelloAIXIAOJI)
 
 倉庫維護者：
  * [@FreshingAir](https://github.com/FreshingAir)
