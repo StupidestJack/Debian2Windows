@@ -1,4 +1,4 @@
-# Linux2WindowsDebianRepo
+# Debian2WindowsRepo
 在Linux修復之際，我們需要一個deb倉庫
 
 ## 食用方法
