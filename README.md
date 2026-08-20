@@ -12,7 +12,7 @@ sudo apt update
 ## 倉庫內的套件
 按照A-Z字母排列。
 
- * [active-linux](https://github.com/MrGlockenspiel/activate-linux)：修复 Linux 没有激活水印的 Bug
+ * [activate-linux](https://github.com/MrGlockenspiel/activate-linux)：修复 Linux 没有激活水印的 Bug
  * [bsod](https://github.com/heyManNice/bsod)：修复 Linux 没有 bsod 的 Bug
  * [cmd](https://github.com/ChenPi11/cmd)：修复 Linux 没有 cmd 的 Bug
  * [libschrodinger](https://github.com/LyCecilion/libschrodinger)：修复 Linux 没有「应用程序错误」窗口的 Bug
