@@ -40,7 +40,7 @@ Version: 版本（若無則填入1.0-1）
 Section: utils
 Priority: optional
 Architecture: amd64
-Maintainer: 人 <信箱>
+Maintainer: 維護者 <信箱>
 Description: 修复 Linux 没有 ______ 的 Bug
 ```
 
@@ -80,5 +80,3 @@ apt-ftparchive release . > Release
 
 倉庫維護者：
  * [@FreshingAir](https://github.com/FreshingAir)
-
-最後感謝我們的教學者Gemini，整個文件幾乎都它寫的
