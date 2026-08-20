@@ -17,33 +17,31 @@ sudo apt update
  * [libschrodinger](https://github.com/LyCecilion/libschrodinger)：修复 Linux 没有「应用程序错误」窗口的 Bug
  * [mkwin](https://github.com/macOS-Terminal/mkwin)：從原始碼構建赤石科技的包管理器
  * [windowshit](https://github.com/HelloAIXIAOJI/windowshit)：修复 Linux 没有 24 種命令的 Bug
-   * ws-choice：修复 Linux 没有「ws-choice」命令的 Bug
-   * ws-clip：修复 Linux 没有「ws-clip」命令的 Bug
-   * ws-control：修复 Linux 没有「ws-control」命令的 Bug
-   * ws-control.template：修复 Linux 没有「ws-control.template」命令的 Bug
-   * ws-expand：修复 Linux 没有「ws-expand」命令的 Bug
-   * ws-fc：修复 Linux 没有「ws-fc」命令的 Bug
-   * ws-findstr：修复 Linux 没有「ws-findstr」命令的 Bug
-   * ws-getmac：修复 Linux 没有「ws-getmac」命令的 Bug
-   * ws-hostname-win：修复 Linux 没有「ws-hostname-win」命令的 Bug
-   * ws-ipconfig：修复 Linux 没有「ws-ipconfig」命令的 Bug
-   * ws-makecab：修复 Linux 没有「ws-makecab」命令的 Bug
-   * ws-more-win：修复 Linux 没有「ws-more-win」命令的 Bug
-   * ws-pathping：修复 Linux 没有「ws-pathping」命令的 Bug
-   * ws-ping-win：修复 Linux 没有「ws-ping-win」命令的 Bug
-   * ws-replace：修复 Linux 没有「ws-replace」命令的 Bug
-   * ws-robocopy：修复 Linux 没有「ws-robocopy」命令的 Bug
-   * ws-shutdown：修复 Linux 没有「ws-shutdown」命令的 Bug
-   * ws-sort-win：修复 Linux 没有「ws-sort-win」命令的 Bug
-   * ws-systeminfo：修复 Linux 没有「ws-systeminfo」命令的 Bug
-   * ws-taskkill：修复 Linux 没有「ws-taskkill」命令的 Bug
-   * ws-tasklist：修复 Linux 没有「ws-tasklist」命令的 Bug
-   * ws-tracert：修复 Linux 没有「ws-tracert」命令的 Bug
-   * ws-tree-win：修复 Linux 没有「ws-tree-win」命令的 Bug
-   * ws-type-win：修复 Linux 没有「ws-type-win」命令的 Bug
-   * ws-ver：修复 Linux 没有「ws-ver」命令的 Bug
-   * ws-where-win：修复 Linux 没有「ws-where-win」命令的 Bug
-   * ws-whoami-win：修复 Linux 没有「ws-whoami-win」命令的 Bug
+   * ws-choice：修复 Linux 没有「choice」命令的 Bug
+   * ws-clip：修复 Linux 没有「clip」命令的 Bug
+   * ws-expand：修复 Linux 没有「expand」命令的 Bug
+   * ws-fc：修复 Linux 没有「fc」命令的 Bug
+   * ws-findstr：修复 Linux 没有「findstr」命令的 Bug
+   * ws-getmac：修复 Linux 没有「getmac」命令的 Bug
+   * ws-hostname-win：修复 Linux 没有「hostname」命令的 Bug（需輸入`hostname-win`）
+   * ws-ipconfig：修复 Linux 没有「ipconfig」命令的 Bug
+   * ws-makecab：修复 Linux 没有「makecab」命令的 Bug
+   * ws-more-win：修复 Linux 没有「more」命令的 Bug（需輸入`more-win`）
+   * ws-pathping：修复 Linux 没有「pathping」命令的 Bug
+   * ws-ping-win：修复 Linux 没有「ping」命令的 Bug（需輸入`ping-win`）
+   * ws-replace：修复 Linux 没有「replace」命令的 Bug
+   * ws-robocopy：修复 Linux 没有「robocopy」命令的 Bug
+   * ws-shutdown：修复 Linux 没有「shutdown」命令的 Bug
+   * ws-sort-win：修复 Linux 没有「sort」命令的 Bug（需輸入`sort-win`）
+   * ws-systeminfo：修复 Linux 没有「systeminfo」命令的 Bug
+   * ws-taskkill：修复 Linux 没有「taskkill」命令的 Bug
+   * ws-tasklist：修复 Linux 没有「tasklist」命令的 Bug
+   * ws-tracert：修复 Linux 没有「tracert」命令的 Bug
+   * ws-tree-win：修复 Linux 没有「tree」命令的 Bug（需輸入`tree-win`）
+   * ws-type-win：修复 Linux 没有「type」命令的 Bug（需輸入`type-win`）
+   * ws-ver：修复 Linux 没有「ver」命令的 Bug
+   * ws-where-win：修复 Linux 没有「where」命令的 Bug（需輸入`where-win`）
+   * ws-whoami-win：修复 Linux 没有「whoami」命令的 Bug（需輸入`whoami-win`）
 
 ## 貢獻指南
 建立deb文件需要一個名為`套件_版本_架構`的目錄，如`package_1.0-1_amd64`。
