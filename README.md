@@ -70,7 +70,7 @@ cmd_0.1-1_amd64
 
 
 control文件格式：
-```txt
+```toml
 Package: 套件名
 Version: 版本（若無則填入1.0-1）
 Section: utils
@@ -79,10 +79,24 @@ Architecture: amd64
 Maintainer: 維護者 <信箱>
 Description: 修复 Linux 没有 ______ 的 Bug
 ```
+Maintainer 建議使用維護者，以符合 `deb` 包的規範。
 
 請記得確保文件是755：
 ```sh
 chmod 755 usr/bin/*
+```
+
+針對桌面應用程式，請建立desktop文件並放在套件目錄/usr/share/applications/下：
+```toml
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=套件名
+Comment=套件名 for Linux
+Exec=軟體位置 %f
+Icon=/usr/share/pixmaps/套件圖示.png
+Terminal=false
+Categories=Utility;
 ```
 
 封裝deb文件：
