@@ -1,3 +1,16 @@
+Package: BSoD
+Version: 1.0.1
+Architecture: amd64
+Maintainer: heyManNice <heyManNice@noreply.github.com>
+Filename: debs/bsod-v1.0.1-linux-x86_64.deb
+Size: 32314
+MD5sum: 6f1cfe2373b92c2ee3c1334d3399e6dd
+SHA1: 24838891c7b53fbed875d05d6e971d22e38f828f
+SHA256: 174edc0cc2bc094258340320ad6f20d30e8d85f2f5c3dd0288a16d2727b6a50d
+Section: utils
+Priority: optional
+Description: 修复了 Linux 没有 BSoD 的 Bug
+
 Package: cmd
 Version: 0.1-1
 Architecture: amd64
@@ -23,4 +36,17 @@ SHA256: 5b62c03407a24203fbfea881579e51dd14c851a2bd3ce32b147c6f1457a980ca
 Section: utils
 Priority: optional
 Description: 修复 Linux 没有「应用程序错误」窗口的 Bug
+
+Package: regedit
+Version: 1.0
+Architecture: amd64
+Maintainer: heyManNice <heyManNice@noreply.github.com>
+Filename: debs/regedit_1.0_amd64.deb
+Size: 141834
+MD5sum: c99683969368c5245fe937d466e682ee
+SHA1: 922cc0d320b7ed5e81dee4b617d5b29c4a4ea2a5
+SHA256: 8c94b06e789ffd5adc84a6ea51c41295dc5386b39478b7044aaa8499fd8233b7
+Section: utils
+Priority: optional
+Description: 修复 Linux 没有 注册表编辑器 的 Bug
 
