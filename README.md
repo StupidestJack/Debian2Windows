@@ -77,4 +77,7 @@ apt-ftparchive release . > Release
  * [@ChenPi11](https://github.com/ChenPi11)
  * [@heyManNice](https://github.com/heyManNice)
 
+倉庫維護者：
+ * [@FreshingAir](https://github.com/FreshingAir)
+
 最後感謝我們的教學者Gemini，整個文件幾乎都它寫的
