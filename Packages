@@ -11,6 +11,32 @@ Section: utils
 Priority: optional
 Description: 修复了 Linux 没有 BSoD 的 Bug
 
+Package: choice
+Version: 0.1.1
+Architecture: amd64
+Maintainer: niugnep <penguin@niugnep.idv.tw>
+Filename: debs/ws-choice_0.1.1_amd64.deb
+Size: 244832
+MD5sum: 6b8a9c2d6dc94a938cf367be1ab57398
+SHA1: e2f24f9f96f905cd94e206e945ab9ffd7d52f1c3
+SHA256: 3eb9fa1c55212fec76fa7dbcf077c62921b626b0cd53fd5614a651ad621b6b75
+Section: utils
+Priority: optional
+Description: 修复 Linux 没有 choice 的 Bug
+
+Package: clip
+Version: 0.1.1
+Architecture: amd64
+Maintainer: niugnep <penguin@niugnep.idv.tw>
+Filename: debs/ws-clip_0.1.1_amd64.deb
+Size: 279956
+MD5sum: 48bb639c95aa38ab3e53f90bc426897a
+SHA1: 9a2f57e2f62fea699d5000ecc92dbcaaa42d72c2
+SHA256: 5b43574c24c772365c40b5aa228150ad237c9f46eb36af8ad63fa3085fed7fbd
+Section: utils
+Priority: optional
+Description: 修复 Linux 没有 clip 的 Bug
+
 Package: cmd
 Version: 0.1-1
 Architecture: amd64
@@ -23,6 +49,97 @@ SHA256: ff33783e721b7a954ed1736f1de94d73740b600fe41567556ee3929be7bcc4a6
 Section: utils
 Priority: optional
 Description: 修复 Linux 没有 cmd 的 Bug
+
+Package: control
+Version: 0.1.1
+Architecture: amd64
+Maintainer: niugnep <penguin@niugnep.idv.tw>
+Filename: debs/ws-control_0.1.1_amd64.deb
+Size: 864
+MD5sum: fcfe5e6f7e53b5e1d00c0963f8cfba17
+SHA1: 313c8bf485dccec00bb48b78f11954ef4e2eef74
+SHA256: 68f48a0b17f3c39a5ddead2d2984e291abf4b8cbff748122019f06ea70ffcfb9
+Section: utils
+Priority: optional
+Description: 修复 Linux 没有 control 的 Bug
+
+Package: expand
+Version: 0.1.1
+Architecture: amd64
+Maintainer: niugnep <penguin@niugnep.idv.tw>
+Filename: debs/ws-expand_0.1.1_amd64.deb
+Size: 223104
+MD5sum: 882fab682706a265521164cd075757bb
+SHA1: 9134899eb03ae92075e7777f46c5fb5d8e436c14
+SHA256: 10dbd9b6b6ba3a3c07554409ad156c4c64912ad9ff965b5d9f27021143ff15ad
+Section: utils
+Priority: optional
+Description: 修复 Linux 没有 expand 的 Bug
+
+Package: fc
+Version: 0.1.1
+Architecture: amd64
+Maintainer: niugnep <penguin@niugnep.idv.tw>
+Filename: debs/ws-fc_0.1.1_amd64.deb
+Size: 178020
+MD5sum: 6adfc1dffb09add5803c2bd792b64d3c
+SHA1: 295031f1451ebbda19044f237a70eb6ebf4dc90b
+SHA256: f7a2c821febec167c5b6228fcad351f75226493ded205662f021e3da7fa29ba3
+Section: utils
+Priority: optional
+Description: 修复 Linux 没有 fc 的 Bug
+
+Package: findstr
+Version: 0.1.1
+Architecture: amd64
+Maintainer: niugnep <penguin@niugnep.idv.tw>
+Filename: debs/ws-findstr_0.1.1_amd64.deb
+Size: 743280
+MD5sum: 2991564f5e7d23286b68225ee082aca8
+SHA1: f19eac5451c02d1dd5839fde5f9ebb38f3eb85e5
+SHA256: 09b81170cab1cfe72b9115789cbc7b0432015f46af5e29001f78e8827f5dfe2c
+Section: utils
+Priority: optional
+Description: 修复 Linux 没有 findstr 的 Bug
+
+Package: getmac
+Version: 0.1.1
+Architecture: amd64
+Maintainer: niugnep <penguin@niugnep.idv.tw>
+Filename: debs/ws-getmac_0.1.1_amd64.deb
+Size: 593224
+MD5sum: 4364948ae38fa5eaf1033d90c169eaca
+SHA1: 829aadd0e827b714c861ffd9dd47012f09fe437e
+SHA256: 3b08295e550fa05309e4a16639556eff5632ee17deefe24a14c5aa2df04ef2f1
+Section: utils
+Priority: optional
+Description: 修复 Linux 没有 getmac 的 Bug
+
+Package: hostname-win
+Version: 0.1.1
+Architecture: amd64
+Maintainer: niugnep <penguin@niugnep.idv.tw>
+Filename: debs/ws-hostname-win_0.1.1_amd64.deb
+Size: 278744
+MD5sum: 293d8ffe378607feee6e118c9f03b56b
+SHA1: e738359593a319a09c2d1457c0621b2fc8b44de2
+SHA256: 37089f7d050a8d3772940ad9063dd3371d1fe5b17ec49c2fcd77e870a9c5d4a5
+Section: utils
+Priority: optional
+Description: 修复 Linux 没有 hostname-win 的 Bug
+
+Package: ipconfig
+Version: 0.1.1
+Architecture: amd64
+Maintainer: niugnep <penguin@niugnep.idv.tw>
+Filename: debs/ws-ipconfig_0.1.1_amd64.deb
+Size: 587140
+MD5sum: e4bfc64afa1e1cd47a4ed0616a569b6f
+SHA1: b0790bbc7cae99a7e25fe0c323ccca23c7efe444
+SHA256: 46241854b9a115a6b4643a2d476fa6619d87536e4eb30c19d4c41bd5c2b5647e
+Section: utils
+Priority: optional
+Description: 修复 Linux 没有 ipconfig 的 Bug
 
 Package: libschrodinger
 Version: 1.0-1
@@ -37,6 +154,58 @@ Section: utils
 Priority: optional
 Description: 修复 Linux 没有「应用程序错误」窗口的 Bug
 
+Package: makecab
+Version: 0.1.1
+Architecture: amd64
+Maintainer: niugnep <penguin@niugnep.idv.tw>
+Filename: debs/ws-makecab_0.1.1_amd64.deb
+Size: 231964
+MD5sum: 523cd4c16e4b7197bc579e4e421dbf92
+SHA1: 3b56565f8e534ebedc22e2a65bd81d22261ffe6a
+SHA256: 182e487ec71626702746e6344547ebb42d0346759dfa54dce6f485dd88b8e80f
+Section: utils
+Priority: optional
+Description: 修复 Linux 没有 makecab 的 Bug
+
+Package: more-win
+Version: 0.1.1
+Architecture: amd64
+Maintainer: niugnep <penguin@niugnep.idv.tw>
+Filename: debs/ws-more-win_0.1.1_amd64.deb
+Size: 293016
+MD5sum: 9cd22b706ffebe68c07d0fe502decaaf
+SHA1: 4fe0f4cb94bc50f7a3591d1eea5cafe61d5b65ad
+SHA256: 33b4c9cc2048fa203320f37786ec2d121479c5853c3f156c272c2aa650c20e11
+Section: utils
+Priority: optional
+Description: 修复 Linux 没有 more-win 的 Bug
+
+Package: pathping
+Version: 0.1.1
+Architecture: amd64
+Maintainer: niugnep <penguin@niugnep.idv.tw>
+Filename: debs/ws-pathping_0.1.1_amd64.deb
+Size: 485488
+MD5sum: 347991332e21dc122820cfd259bd3b74
+SHA1: 18d52f2c3e8d4b311fff9df763e102c888caff0d
+SHA256: 71de7168799be0958da1e8027112cd25661605a4c7c7869f8b2c488e37367509
+Section: utils
+Priority: optional
+Description: 修复 Linux 没有 pathping 的 Bug
+
+Package: ping-win
+Version: 0.1.1
+Architecture: amd64
+Maintainer: niugnep <penguin@niugnep.idv.tw>
+Filename: debs/ws-ping-win_0.1.1_amd64.deb
+Size: 469536
+MD5sum: 394c506094c02f1bf38924c0b3e76e0a
+SHA1: 6db960ec962964427af5ac9bc1d7f4c5789705e8
+SHA256: 987e50b4763bd5fec9f568ccbe422e2825f812b370bfb560292577938a2f98f6
+Section: utils
+Priority: optional
+Description: 修复 Linux 没有 ping-win 的 Bug
+
 Package: regedit
 Version: 1.0-1
 Architecture: amd64
@@ -49,4 +218,200 @@ SHA256: 68fb3bebcd7d3e47ce28040c7d4db25b899efc47aa69f59d9e59485970e904d9
 Section: utils
 Priority: optional
 Description: 修复 Linux 没有 注册表编辑器 的 Bug
+
+Package: replace
+Version: 0.1.1
+Architecture: amd64
+Maintainer: niugnep <penguin@niugnep.idv.tw>
+Filename: debs/ws-replace_0.1.1_amd64.deb
+Size: 185496
+MD5sum: deb4665b13ea2d8f449d75e28627fbf4
+SHA1: 16e1371d85d3a35893e3e8a4728930f0c61b2088
+SHA256: 00175ffb7677e65c0f31f4ff159d959f1f427831352f1ca13d3c2138e98e736c
+Section: utils
+Priority: optional
+Description: 修复 Linux 没有 replace 的 Bug
+
+Package: robocopy
+Version: 0.1.1
+Architecture: amd64
+Maintainer: niugnep <penguin@niugnep.idv.tw>
+Filename: debs/ws-robocopy_0.1.1_amd64.deb
+Size: 265580
+MD5sum: 72395422d4099598b8f734fbd8d5b5f4
+SHA1: f416834cee31be19739b54acea7598c4fe445928
+SHA256: bbca6d62c93bcbf544c089541a86fa4055c0804825cfcf73cb67173730fbfa0b
+Section: utils
+Priority: optional
+Description: 修复 Linux 没有 robocopy 的 Bug
+
+Package: run.sh
+Version: 0.1.1
+Architecture: amd64
+Maintainer: niugnep <penguin@niugnep.idv.tw>
+Filename: debs/ws-run.sh_0.1.1_amd64.deb
+Size: 1580
+MD5sum: 357f8d2eaabb33d604aa29393096ba0b
+SHA1: a78537955d1cf0d294bfdcf2eef959108e6546fb
+SHA256: 0b28f047fa6dbced77487c4b9d5a21851e9892d774cea3de26afd4ad919bccd1
+Section: utils
+Priority: optional
+Description: 修复 Linux 没有 run.sh 的 Bug
+
+Package: shutdown
+Version: 0.1.1
+Architecture: amd64
+Maintainer: niugnep <penguin@niugnep.idv.tw>
+Filename: debs/ws-shutdown_0.1.1_amd64.deb
+Size: 191968
+MD5sum: c6971f6f5e06555c8df0c866b396cb24
+SHA1: 3030c174e68c3011f899b637829ab5354d6c37bc
+SHA256: 7217cf64fd49e8d0fb0182c2b58f030a3a2d385647f8a70b0ba1184e526231b5
+Section: utils
+Priority: optional
+Description: 修复 Linux 没有 shutdown 的 Bug
+
+Package: sort-win
+Version: 0.1.1
+Architecture: amd64
+Maintainer: niugnep <penguin@niugnep.idv.tw>
+Filename: debs/ws-sort-win_0.1.1_amd64.deb
+Size: 299864
+MD5sum: f925d99e671395fec1a5eed6cfb4bda3
+SHA1: 8b2c124f47609cd58e843700639b6165bd8179fe
+SHA256: 2abde69566d1a60dd67b4123c2e9968a0c0baa9eb72077822f400173f247748c
+Section: utils
+Priority: optional
+Description: 修复 Linux 没有 sort-win 的 Bug
+
+Package: systeminfo
+Version: 0.1.1
+Architecture: amd64
+Maintainer: niugnep <penguin@niugnep.idv.tw>
+Filename: debs/ws-systeminfo_0.1.1_amd64.deb
+Size: 678472
+MD5sum: 8f0896d28b1436863825222446398b01
+SHA1: cb883f65e5dd262cfe867f79659b86bbd0d4dbf5
+SHA256: 9e18f00bfd9035d027923951168bd78049373d1fbf13b98abf6ea5003fd2b808
+Section: utils
+Priority: optional
+Description: 修复 Linux 没有 systeminfo 的 Bug
+
+Package: taskkill
+Version: 0.1.1
+Architecture: amd64
+Maintainer: niugnep <penguin@niugnep.idv.tw>
+Filename: debs/ws-taskkill_0.1.1_amd64.deb
+Size: 369688
+MD5sum: fed4a1f3d9c4b06f6584c47d14e8e8f8
+SHA1: e2dbbb567e329da3a00563333a67857e6d7aa225
+SHA256: a3b28ae2891b9bdfc4ff360429eac873a033e8aa84ff35be266fbcdc94883e73
+Section: utils
+Priority: optional
+Description: 修复 Linux 没有 taskkill 的 Bug
+
+Package: tasklist
+Version: 0.1.1
+Architecture: amd64
+Maintainer: niugnep <penguin@niugnep.idv.tw>
+Filename: debs/ws-tasklist_0.1.1_amd64.deb
+Size: 337216
+MD5sum: 65ef63f39a28938801f205adfa8fd794
+SHA1: b91b8e2fb661c16d37bb3d29606d6e567b5b403c
+SHA256: d1925c3aeadfb9c680d02c8514d43197bf1df72f8e34942c7eeb0db5b9ce7ad9
+Section: utils
+Priority: optional
+Description: 修复 Linux 没有 tasklist 的 Bug
+
+Package: tracert
+Version: 0.1.1
+Architecture: amd64
+Maintainer: niugnep <penguin@niugnep.idv.tw>
+Filename: debs/ws-tracert_0.1.1_amd64.deb
+Size: 331168
+MD5sum: a20222c7a3933470df3c0b1ebb367567
+SHA1: 0d6461ea996e68cd5e74c19e5735288380662169
+SHA256: c227096aaf2d5ad500971bf3de432a6073f3e58aaf62775368aff7396e7cfe9f
+Section: utils
+Priority: optional
+Description: 修复 Linux 没有 tracert 的 Bug
+
+Package: tree-win
+Version: 0.1.1
+Architecture: amd64
+Maintainer: niugnep <penguin@niugnep.idv.tw>
+Filename: debs/ws-tree-win_0.1.1_amd64.deb
+Size: 293376
+MD5sum: d0bbb76507b875b78750a1821a496139
+SHA1: 2b10a6ef586d0afac75e466d15597924fe957004
+SHA256: 308d999f72ad1f93b3d17ff366955244957e38c75b2794ecab21c56f577f2f51
+Section: utils
+Priority: optional
+Description: 修复 Linux 没有 tree-win 的 Bug
+
+Package: type-win
+Version: 0.1.1
+Architecture: amd64
+Maintainer: niugnep <penguin@niugnep.idv.tw>
+Filename: debs/ws-type-win_0.1.1_amd64.deb
+Size: 280740
+MD5sum: 469f06f5d4d052e45b0a25a8a3c42f8d
+SHA1: aee66b57212657f537aca71796f28818d630b642
+SHA256: 02b6e650f114a2f9b046697a0315299b98540c3f707788929892bd34e7ad4ef1
+Section: utils
+Priority: optional
+Description: 修复 Linux 没有 type-win 的 Bug
+
+Package: ver
+Version: 0.1.1
+Architecture: amd64
+Maintainer: niugnep <penguin@niugnep.idv.tw>
+Filename: debs/ws-ver_0.1.1_amd64.deb
+Size: 205332
+MD5sum: bb7eecbc18836db39e762d268fcee182
+SHA1: 733b40709b60a8dcf11b6747193761d111efe4e7
+SHA256: 8e4ba97509b7603ac1e64b1b4021b052aa67265574e2618d6a0f32394f318755
+Section: utils
+Priority: optional
+Description: 修复 Linux 没有 ver 的 Bug
+
+Package: where-win
+Version: 0.1.1
+Architecture: amd64
+Maintainer: niugnep <penguin@niugnep.idv.tw>
+Filename: debs/ws-where-win_0.1.1_amd64.deb
+Size: 297268
+MD5sum: 3d97afa480d5d24bda641ca04e4e7e6b
+SHA1: ed6aba285fbcea65713a1caca327fea920e5ed0a
+SHA256: d8d4a5cb2cfabf9910cb15a26e1e1a01e548186133f977928662f480edab17d0
+Section: utils
+Priority: optional
+Description: 修复 Linux 没有 where-win 的 Bug
+
+Package: whoami-win
+Version: 0.1.1
+Architecture: amd64
+Maintainer: niugnep <penguin@niugnep.idv.tw>
+Filename: debs/ws-whoami-win_0.1.1_amd64.deb
+Size: 167848
+MD5sum: 3cc0abf67ee39c929061677b05a2e7b7
+SHA1: aaf2e20a0b66e66502b365817082e83f1b485303
+SHA256: abd76ac90c93d86c5f350dfbc4b0c90644941d9c2a8a39edcc7355b1a77a958b
+Section: utils
+Priority: optional
+Description: 修复 Linux 没有 whoami-win 的 Bug
+
+Package: windowshit
+Version: 0.1.1
+Architecture: amd64
+Maintainer: niugnep <penguin@niugnep.idv.tw>
+Depends: ws-choice_0.1.1_amd64.deb, ws-clip_0.1.1_amd64.deb, ws-control_0.1.1_amd64.deb, ws-expand_0.1.1_amd64.deb, ws-fc_0.1.1_amd64.deb, ws-findstr_0.1.1_amd64.deb, ws-getmac_0.1.1_amd64.deb, ws-hostname-win_0.1.1_amd64.deb, ws-ipconfig_0.1.1_amd64.deb, ws-makecab_0.1.1_amd64.deb, ws-more-win_0.1.1_amd64.deb, ws-pathping_0.1.1_amd64.deb, ws-ping-win_0.1.1_amd64.deb, ws-replace_0.1.1_amd64.deb, ws-robocopy_0.1.1_amd64.deb, ws-run.sh_0.1.1_amd64.deb, ws-shutdown_0.1.1_amd64.deb, ws-sort-win_0.1.1_amd64.deb, ws-systeminfo_0.1.1_amd64.deb, ws-taskkill_0.1.1_amd64.deb, ws-tasklist_0.1.1_amd64.deb, ws-tracert_0.1.1_amd64.deb, ws-tree-win_0.1.1_amd64.deb, ws-type-win_0.1.1_amd64.deb, ws-ver_0.1.1_amd64.deb, ws-where-win_0.1.1_amd64.deb, ws-whoami-win_0.1.1_amd64.deb
+Filename: debs/windowshit_0.1.1_amd64.deb
+Size: 900
+MD5sum: 43955ee3814b8af6db65cce27d420b26
+SHA1: 6e5b646e75f44f382fb4b513bb27c6f64d002ca9
+SHA256: a19711b6a37acffe0ec07c71c3c0b0fab1c7d921310e028051a25237d9539a93
+Section: utils
+Priority: optional
+Description: 修复 Linux 的 24 個 Bug
 
