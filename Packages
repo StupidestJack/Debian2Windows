@@ -405,12 +405,12 @@ Package: windowshit
 Version: 0.1.1
 Architecture: amd64
 Maintainer: niugnep <penguin@niugnep.idv.tw>
-Depends: ws-choice_0.1.1_amd64.deb, ws-clip_0.1.1_amd64.deb, ws-control_0.1.1_amd64.deb, ws-expand_0.1.1_amd64.deb, ws-fc_0.1.1_amd64.deb, ws-findstr_0.1.1_amd64.deb, ws-getmac_0.1.1_amd64.deb, ws-hostname-win_0.1.1_amd64.deb, ws-ipconfig_0.1.1_amd64.deb, ws-makecab_0.1.1_amd64.deb, ws-more-win_0.1.1_amd64.deb, ws-pathping_0.1.1_amd64.deb, ws-ping-win_0.1.1_amd64.deb, ws-replace_0.1.1_amd64.deb, ws-robocopy_0.1.1_amd64.deb, ws-run.sh_0.1.1_amd64.deb, ws-shutdown_0.1.1_amd64.deb, ws-sort-win_0.1.1_amd64.deb, ws-systeminfo_0.1.1_amd64.deb, ws-taskkill_0.1.1_amd64.deb, ws-tasklist_0.1.1_amd64.deb, ws-tracert_0.1.1_amd64.deb, ws-tree-win_0.1.1_amd64.deb, ws-type-win_0.1.1_amd64.deb, ws-ver_0.1.1_amd64.deb, ws-where-win_0.1.1_amd64.deb, ws-whoami-win_0.1.1_amd64.deb
+Depends: ws-choice, ws-clip, ws-control, ws-expand, ws-fc, ws-findstr, ws-getmac, ws-hostname-win, ws-ipconfig, ws-makecab, ws-more-win, ws-pathping, ws-ping-win, ws-replace, ws-robocopy, ws-run.sh, ws-shutdown, ws-sort-win, ws-systeminfo, ws-taskkill, ws-tasklist, ws-tracert, ws-tree-win, ws-type-win, ws-ver, ws-where-win, ws-whoami-win
 Filename: debs/windowshit_0.1.1_amd64.deb
-Size: 900
-MD5sum: 43955ee3814b8af6db65cce27d420b26
-SHA1: 6e5b646e75f44f382fb4b513bb27c6f64d002ca9
-SHA256: a19711b6a37acffe0ec07c71c3c0b0fab1c7d921310e028051a25237d9539a93
+Size: 868
+MD5sum: dfc938a15d0af55aca05d042fb8efb71
+SHA1: c9a52c90630ee0297e4b2292b4f768c0ff16ac4d
+SHA256: 95948f8b256f80eafd8ea85b6e52dad2efc7592c334549fb805a85bd69481c66
 Section: utils
 Priority: optional
 Description: 修复 Linux 的 24 個 Bug
