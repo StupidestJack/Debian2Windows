@@ -25,15 +25,15 @@ Priority: optional
 Description: 修复了 Linux 没有 BSoD 的 Bug
 
 Package: autofix
-Version: 0.1-1
+Version: 0.1-2
 Architecture: amd64
 Maintainer: niugnep <penguin@niugnep.idv.tw>
 Depends: python3 (>= 3.8), python3-tk
 Filename: debs/autofix_1.0.0_amd64.deb
-Size: 4044
-MD5sum: 98df6ca81003b0a6fddd9cfd47b277a8
-SHA1: d6d902980ee5429133a050cd95ac29001be1f335
-SHA256: 86e480220482575db4b646b56951e4e440b448efcb5022124576ea8cc3fc247c
+Size: 4204
+MD5sum: e143f38e00f1e170f349390a182b48b2
+SHA1: d6001a14aca2bcf9a0b8c7599be7e5b317a673db
+SHA256: 098229fd5fa8d0ec3f7ffd8c1f9aed927515444318993fbffb3129ce111af9f8
 Section: utils
 Priority: optional
 Description: 修复 Linux 没有自動修復的 Bug
@@ -120,14 +120,14 @@ Priority: optional
 Description: 修复 Linux 的 24 個 Bug
 
 Package: winver
-Version: 0.1-1
+Version: 0.1-2
 Architecture: amd64
 Maintainer: niugnep <penguin@niugnep.idv.tw>
-Filename: debs/winver_1.0-1_amd64.deb
-Size: 229940
-MD5sum: 529f0643fe8c545f9f5909caff741784
-SHA1: 52c7fc7d432a3fece4f2168e11d55b1b1a36bfca
-SHA256: 55af53b99941c03a9e362c1d0741193931b3b3162a7e2fb17e765a727f76b3c0
+Filename: debs/winver_0.1-2_amd64.deb
+Size: 239372
+MD5sum: 4ea547c239cccad701d05b4f312f710c
+SHA1: dbf3af93fc3d4e953330cfa34aef6f697fda4e42
+SHA256: 19d960b6f0dba2998aab8823f9c15eb5186d0f02f62a00eaa0581c2e957ef7d4
 Section: utils
 Priority: optional
 Description: 修复 Linux 没有 winver 的 Bug
