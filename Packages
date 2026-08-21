@@ -64,6 +64,20 @@ Section: utils
 Priority: optional
 Description: 修复 Linux 没有 control 的 Bug
 
+Package: control
+Version: 1.1.0
+Architecture: amd64
+Maintainer: niugnep <penguin@niugnep.idv.tw>
+Depends: python3 (>= 3.6), python3-pyqt5
+Filename: debs/control_1.1.0_amd64.deb
+Size: 259072
+MD5sum: 16ded652082fbfc11ab670c95e478438
+SHA1: c000650138b498a828e0cc77f9ab6151000f4203
+SHA256: 2250536c990e0f664fae1a6d3451fe285bb4e90e724b5b034875b9513b861ab8
+Section: utils
+Priority: optional
+Description: 修复 Linux 没有控制面板的 Bug
+
 Package: libschrodinger
 Version: 1.0-1
 Architecture: amd64
