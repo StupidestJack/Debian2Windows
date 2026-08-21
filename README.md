@@ -123,9 +123,9 @@ apt-ftparchive release . > Release
 ## 貢獻
 非常歡迎任何人fork並提交PR，每一條PR我都會看的。
 
-牆裂建議使用GPG金鑰對自己的commit簽名，以免PR被關閉（doge
+牆裂建議使用GPG金鑰對自己的commit簽名，以免PR被關閉
 
-此外也歡迎項目開發者親自維護親自拉石，以確保Linux赤石科技生態穩定（doge
+此外也歡迎項目開發者親自維護親自拉石，以確保Linux赤石科技生態穩定
 
 ## 特別感謝
 項目開發者：
