@@ -124,10 +124,10 @@ Version: 0.1-2
 Architecture: amd64
 Maintainer: niugnep <penguin@niugnep.idv.tw>
 Filename: debs/winver_0.1-2_amd64.deb
-Size: 239372
-MD5sum: 4ea547c239cccad701d05b4f312f710c
-SHA1: dbf3af93fc3d4e953330cfa34aef6f697fda4e42
-SHA256: 19d960b6f0dba2998aab8823f9c15eb5186d0f02f62a00eaa0581c2e957ef7d4
+Size: 230152
+MD5sum: 42703ce5a9f7d5e91b203b5e43988963
+SHA1: bdb6f70d5ebea7377f943eae2e5a9bdb96b3afa8
+SHA256: eadbbfc9ad7b6e5471c3f7df1246ed1a66da8a686e146539379958cb5dea995a
 Section: utils
 Priority: optional
 Description: 修复 Linux 没有 winver 的 Bug
