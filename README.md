@@ -19,6 +19,7 @@ sudo apt update
  * [libschrodinger](https://github.com/LyCecilion/libschrodinger)：修复 Linux 没有「应用程序错误」窗口的 Bug
  * [mkwin](https://github.com/macOS-Terminal/mkwin)：從原始碼構建赤石科技的包管理器
  * [regedit](https://github.com/heyManNice/regedit)：修复 Linux 没有注册表编辑器的 Bug 
+ * [services](https://github.com/StupidestJack/ServiceForLinux/)：修复 Linux 没有 Service 的 Bug
  * [winver](https://github.com/DeepslateQAQ/linux-winver)：修复 Linux 没有 winver Bug
  * [windowshit](https://github.com/HelloAIXIAOJI/windowshit)：修复 Linux 没有 24 種命令的 Bug
    * ws-choice：修复 Linux 没有「choice」命令的 Bug
@@ -134,6 +135,7 @@ apt-ftparchive release . > Release
  * [@macOS-Terminal](https://github.com/macOS-Terminal)
  * [@MrGlockenspiel](https://github.com/MrGlockenspiel)
  * [@xusk1234](https://github.com/xusk1234)
+ * [@StupidestJack](https://github.com/StupidestJack)
 
 倉庫維護者：
  * [@FreshingAir](https://github.com/FreshingAir)

@@ -105,6 +105,20 @@ Section: utils
 Priority: optional
 Description: 修复 Linux 没有 注册表编辑器 的 Bug
 
+Package: service
+Version: 0.1-2
+Architecture: amd64
+Maintainer: niugnep <penguin@niugnep.idv.tw>
+Depends: python3 (>= 3.8), python3-tk
+Filename: debs/service_1.0.0_amd64.deb
+Size: 14936
+MD5sum: a7272ca69b30dfdf5ee5852567bdb05e
+SHA1: eed3098addee9045ba1526d53e60642b82a602b5
+SHA256: e8668deb44c2a5f5ac66ab1a830ae2f4d38e59807bf11523b4d08214d76a4222
+Section: utils
+Priority: optional
+Description: 修复 Linux 没有 Service 的 Bug
+
 Package: windowshit
 Version: 0.1.1
 Architecture: amd64
