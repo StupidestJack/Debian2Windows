@@ -119,28 +119,6 @@ Section: utils
 Priority: optional
 Description: 修复 Linux 没有 Service 的 Bug
 
-Package: win11-panel
-Version: 1.1.0
-Architecture: all
-Maintainer: Win11Panel <dev@example.com>
-Depends: python3, python3-pyqt5
-Recommends: network-manager, bluez, pulseaudio-utils, policykit-1, x11-xserver-utils, brightnessctl, usbutils, pciutils, apt
-Suggests: redshift, clamav, ufw
-Filename: debs/control_1.1.0_all.deb
-Size: 266174
-MD5sum: 64ad7ebb74a6235f51c11026cc22369c
-SHA1: 39c093d2a625bea9277693d467e283b7c46fdeb9
-SHA256: 6b73a11eb1f88f5e955657fe80dd83bff0ae32a470c529495fa5c87d994609d0
-Section: admin
-Priority: optional
-Description: Classic Windows Control Panel replica for Linux
- A PyQt5 application faithfully replicating the classic Windows
- Control Panel (category view, breadcrumbs, large/small icon views)
- on Linux. Controls real system features via nmcli, bluetoothctl,
- pactl, xrandr, systemctl, timedatectl and apt: system & security,
- network, hardware & sound, programs, user accounts, personalization,
- clock & region, ease of access, device manager and admin tools.
-
 Package: windowshit
 Version: 0.1.1
 Architecture: amd64
