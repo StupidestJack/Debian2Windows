@@ -133,7 +133,7 @@ apt-ftparchive release . > Release
  * [@HelloAIXIAOJI](https://github.com/HelloAIXIAOJI)
  * [@macOS-Terminal](https://github.com/macOS-Terminal)
  * [@MrGlockenspiel](https://github.com/MrGlockenspiel)
- * [@MrGlockenspiel](https://github.com/xusk1234)
+ * [@xusk1234](https://github.com/xusk1234)
 
 倉庫維護者：
  * [@FreshingAir](https://github.com/FreshingAir)
