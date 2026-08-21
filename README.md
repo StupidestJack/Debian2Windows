@@ -13,6 +13,7 @@ sudo apt update
 按照A-Z字母排列。
 
  * [activate-linux](https://github.com/MrGlockenspiel/activate-linux)：修复 Linux 没有激活水印的 Bug
+ * [autofix](https://github.com/xusk1234/Linux-Auto-Fix/)：修复 Linux 没有自動修復的 Bug
  * [bsod](https://github.com/heyManNice/bsod)：修复 Linux 没有 bsod 的 Bug
  * [cmd](https://github.com/ChenPi11/cmd)：修复 Linux 没有 cmd 的 Bug
  * [libschrodinger](https://github.com/LyCecilion/libschrodinger)：修复 Linux 没有「应用程序错误」窗口的 Bug
@@ -122,6 +123,8 @@ apt-ftparchive release . > Release
 
 牆裂建議使用GPG金鑰對自己的commit簽名，以免PR被關閉（doge
 
+此外也歡迎項目開發者親自維護親自拉石，以確保Linux赤石科技生態穩定（doge
+
 ## 特別感謝
 項目開發者：
  * [@LyCecilion](https://github.com/LyCecilion)
@@ -130,6 +133,7 @@ apt-ftparchive release . > Release
  * [@HelloAIXIAOJI](https://github.com/HelloAIXIAOJI)
  * [@macOS-Terminal](https://github.com/macOS-Terminal)
  * [@MrGlockenspiel](https://github.com/MrGlockenspiel)
+ * [@MrGlockenspiel](https://github.com/xusk1234)
 
 倉庫維護者：
  * [@FreshingAir](https://github.com/FreshingAir)
