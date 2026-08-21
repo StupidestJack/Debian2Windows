@@ -16,6 +16,7 @@ sudo apt update
  * [autofix](https://github.com/xusk1234/Linux-Auto-Fix/)：修复 Linux 没有自動修復的 Bug
  * [bsod](https://github.com/heyManNice/bsod)：修复 Linux 没有 bsod 的 Bug
  * [cmd](https://github.com/ChenPi11/cmd)：修复 Linux 没有 cmd 的 Bug
+ * [control](https://github.com/phillin-liu/WindowsControlPanel-for-Linux)：修复 Linux 没有控制面板的 Bug
  * [libschrodinger](https://github.com/LyCecilion/libschrodinger)：修复 Linux 没有「应用程序错误」窗口的 Bug
  * [mkwin](https://github.com/macOS-Terminal/mkwin)：從原始碼構建赤石科技的包管理器
  * [regedit](https://github.com/heyManNice/regedit)：修复 Linux 没有注册表编辑器的 Bug 
