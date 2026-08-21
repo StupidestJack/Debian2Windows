@@ -1,13 +1,16 @@
 # Debian2WindowsRepo
 在Linux修復之際，我們需要一個deb倉庫
 
-## 食用方法
+> [!WARNING]  
+> 胡亂使用本項目導致電腦報廢，後果自負。
 
+## 食用方法
 將本倉庫加入您的 APT 源：
 ```bash
 echo "deb [trusted=yes] https://stupidestjack.github.io/Debian2WindowsRepo/ /" | sudo tee /etc/apt/sources.list.d/linux2windows.list
 sudo apt update
 ```
+因為本項目沒有能拿來簽署的GPG金鑰，必須強制信任。
 
 ## 倉庫內的套件
 按照A-Z字母排列。
