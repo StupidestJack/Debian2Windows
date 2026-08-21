@@ -24,6 +24,20 @@ Section: utils
 Priority: optional
 Description: 修复了 Linux 没有 BSoD 的 Bug
 
+Package: autofix
+Version: 0.1-1
+Architecture: amd64
+Maintainer: niugnep <penguin@niugnep.idv.tw>
+Depends: python3 (>= 3.8), python3-tk
+Filename: debs/autofix_1.0.0_amd64.deb
+Size: 4044
+MD5sum: 98df6ca81003b0a6fddd9cfd47b277a8
+SHA1: d6d902980ee5429133a050cd95ac29001be1f335
+SHA256: 86e480220482575db4b646b56951e4e440b448efcb5022124576ea8cc3fc247c
+Section: utils
+Priority: optional
+Description: 修复 Linux 没有自動修復的 Bug
+
 Package: cmd
 Version: 0.1-1
 Architecture: amd64

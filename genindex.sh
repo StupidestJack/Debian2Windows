@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 # 產生 Packages 索引檔
 dpkg-scanpackages --multiversion debs /dev/null > Packages
 
