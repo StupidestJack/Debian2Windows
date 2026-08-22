@@ -2,7 +2,7 @@ Package: ActiveLinux
 Version: 1.2.0
 Architecture: amd64
 Maintainer: MrGlockenspiel <MrGlockenspiel@noreply.github.com>
-Filename: debs/activate-linux_1.2.0_amd64.deb
+Filename: ./debs/activate-linux_1.2.0_amd64.deb
 Size: 18682
 MD5sum: 77b37d6af8c24bc8fbed5eaf4ab17ec0
 SHA1: a9eba849a6e83d6a0f7b1fa6f99bf32ca6db7e06
@@ -15,7 +15,7 @@ Package: BSoD
 Version: 1.0.1
 Architecture: amd64
 Maintainer: heyManNice <heyManNice@noreply.github.com>
-Filename: debs/bsod-v1.0.1-linux-x86_64.deb
+Filename: ./debs/bsod-v1.0.1-linux-x86_64.deb
 Size: 32314
 MD5sum: 6f1cfe2373b92c2ee3c1334d3399e6dd
 SHA1: 24838891c7b53fbed875d05d6e971d22e38f828f
@@ -29,7 +29,7 @@ Version: 0.1-3
 Architecture: amd64
 Maintainer: niugnep <penguin@niugnep.idv.tw>
 Depends: python3 (>= 3.8), python3-tk
-Filename: debs/autofix_0.1-3_amd64.deb
+Filename: ./debs/autofix_0.1-3_amd64.deb
 Size: 9044
 MD5sum: 8fdce887b421b1706187586114a05c4a
 SHA1: fe9693a9407621b398cf6dcd2826975bfb851cb7
@@ -42,7 +42,7 @@ Package: cmd
 Version: 0.1-1
 Architecture: amd64
 Maintainer: niugnep <penguin@niugnep.idv.tw>
-Filename: debs/cmd_0.1-2_amd64.deb
+Filename: ./debs/cmd_0.1-2_amd64.deb
 Size: 92688
 MD5sum: a8c2a00a3a17bbd576b882fe49dc57d9
 SHA1: 19ecf47801791bc0d4443aa3f7781c4a655d1c9b
@@ -55,7 +55,7 @@ Package: control
 Version: 0.1.1
 Architecture: amd64
 Maintainer: niugnep <penguin@niugnep.idv.tw>
-Filename: debs/ws-control_0.1.1_amd64.deb
+Filename: ./debs/ws-control_0.1.1_amd64.deb
 Size: 864
 MD5sum: fcfe5e6f7e53b5e1d00c0963f8cfba17
 SHA1: 313c8bf485dccec00bb48b78f11954ef4e2eef74
@@ -69,7 +69,7 @@ Version: 1.1.0-1
 Architecture: amd64
 Maintainer: niugnep <penguin@niugnep.idv.tw>
 Depends: python3 (>= 3.6), python3-pyqt5
-Filename: debs/control_1.1.0-1_amd64.deb
+Filename: ./debs/control_1.1.0-1_amd64.deb
 Size: 259064
 MD5sum: 8146569cc7409c024bcfd08caf47e5d8
 SHA1: 8f9c9b1ba8d6bbf77810e3e12b236968adc3d104
@@ -82,7 +82,7 @@ Package: libschrodinger
 Version: 1.0-1
 Architecture: amd64
 Maintainer: niugnep <penguin@niugnep.idv.tw>
-Filename: debs/libschrodinger_1.0-1_amd64.deb
+Filename: ./debs/libschrodinger_1.0-1_amd64.deb
 Size: 14684
 MD5sum: 413ec54b0751e704ad9b52573d8b7481
 SHA1: 730300044aeef1c937f987b44881c0b79935a9f0
@@ -96,7 +96,7 @@ Version: 1.0.5
 Architecture: all
 Maintainer: mkwin developers <https://github.com/windowix/awesome-windows-on-linux>
 Depends: bash (>= 4.4), git, coreutils
-Filename: debs/mkwin_1.0.5_all.deb
+Filename: ./debs/mkwin_1.0.5_all.deb
 Size: 33210
 MD5sum: 3681adcc8f69f5a512b729ffdac58229
 SHA1: 10b21e222e4826b90622b02ca68546a89bea242f
@@ -110,7 +110,7 @@ Package: regedit
 Version: 1.0-1
 Architecture: amd64
 Maintainer: heyManNice <heyManNice@noreply.github.com>
-Filename: debs/regedit_1.0-1_amd64.deb
+Filename: ./debs/regedit_1.0-1_amd64.deb
 Size: 140296
 MD5sum: 9277f2a4f272fedb35400496bfad33ac
 SHA1: c080569ef9a37f9c41ea0880c3b2a5ffa93cce49
@@ -124,7 +124,7 @@ Version: 0.1-3
 Architecture: amd64
 Maintainer: niugnep <penguin@niugnep.idv.tw>
 Depends: python3 (>= 3.8), python3-tk
-Filename: debs/service_0.1-3_amd64.deb
+Filename: ./debs/service_0.1-3_amd64.deb
 Size: 15016
 MD5sum: f7e5449df9dbd813fadd8d24e02e65aa
 SHA1: b0ea04d63e4b80bf68065c56214f4843bdd252f4
@@ -138,7 +138,7 @@ Version: 0.1.1
 Architecture: amd64
 Maintainer: niugnep <penguin@niugnep.idv.tw>
 Depends: ws-choice,ws-clip,ws-control.template,ws-expand,ws-fc,ws-findstr,ws-getmac,ws-hostname-win,ws-ipconfig,ws-makecab,ws-more-win,ws-pathping,ws-ping-win,ws-replace,ws-robocopy,ws-shutdown,ws-sort-win,ws-systeminfo,ws-taskkill,ws-tasklist,ws-tracert,ws-tree-win,ws-type-win,ws-ver,ws-where-win,ws-whoami-win
-Filename: debs/windowshit_0.1.1_amd64.deb
+Filename: ./debs/windowshit_0.1.1_amd64.deb
 Size: 876
 MD5sum: e34693ed9f31b11543237c82773949ba
 SHA1: 7107a69dd0318ef268166edd44a724e76b31c970
@@ -151,7 +151,7 @@ Package: winver
 Version: 0.1-3
 Architecture: amd64
 Maintainer: niugnep <penguin@niugnep.idv.tw>
-Filename: debs/winver_0.1-3_amd64.deb
+Filename: ./debs/winver_0.1-3_amd64.deb
 Size: 230256
 MD5sum: bd82ffe6e92788e8b7be78ef367f3566
 SHA1: 54f6a92cb785d06f4351e6c616382b2dfdd73779
@@ -164,7 +164,7 @@ Package: ws-choice
 Version: 0.1.1
 Architecture: amd64
 Maintainer: niugnep <penguin@niugnep.idv.tw>
-Filename: debs/ws-choice_0.1.1_amd64.deb
+Filename: ./debs/ws-choice_0.1.1_amd64.deb
 Size: 244864
 MD5sum: 85e9b9e549d953e19e270a2644f70530
 SHA1: b07998f39ddd8614ea54a8a9f10a15d1babd42ce
@@ -177,7 +177,7 @@ Package: ws-clip
 Version: 0.1.1
 Architecture: amd64
 Maintainer: niugnep <penguin@niugnep.idv.tw>
-Filename: debs/ws-clip_0.1.1_amd64.deb
+Filename: ./debs/ws-clip_0.1.1_amd64.deb
 Size: 279772
 MD5sum: 042d85d29bf737bc5bb522a46ea1741b
 SHA1: 9e0398107aca995f3d60cfc5e514640e05965018
@@ -190,7 +190,7 @@ Package: ws-control.template
 Version: 0.1.1
 Architecture: amd64
 Maintainer: niugnep <penguin@niugnep.idv.tw>
-Filename: debs/ws-control.template_0.1.1_amd64.deb
+Filename: ./debs/ws-control.template_0.1.1_amd64.deb
 Size: 916
 MD5sum: 2ed288200f03c14076e0e2852ef06149
 SHA1: d03132b684a341ff380a3dcac24492e50d5a483f
@@ -203,7 +203,7 @@ Package: ws-expand
 Version: 0.1.1
 Architecture: amd64
 Maintainer: niugnep <penguin@niugnep.idv.tw>
-Filename: debs/ws-expand_0.1.1_amd64.deb
+Filename: ./debs/ws-expand_0.1.1_amd64.deb
 Size: 223180
 MD5sum: 51500ca7e8dbc3cadd1ccd513d3daa4c
 SHA1: 016b053e46e5df5c6a0b44ddf325a6288ff97eff
@@ -216,7 +216,7 @@ Package: ws-fc
 Version: 0.1.1
 Architecture: amd64
 Maintainer: niugnep <penguin@niugnep.idv.tw>
-Filename: debs/ws-fc_0.1.1_amd64.deb
+Filename: ./debs/ws-fc_0.1.1_amd64.deb
 Size: 178124
 MD5sum: bc135c76fdc38ff9d224d6f28ac7ee7e
 SHA1: f8a100cc9ce8eccca55271fbd6be6383c7b10bb3
@@ -229,7 +229,7 @@ Package: ws-findstr
 Version: 0.1.1
 Architecture: amd64
 Maintainer: niugnep <penguin@niugnep.idv.tw>
-Filename: debs/ws-findstr_0.1.1_amd64.deb
+Filename: ./debs/ws-findstr_0.1.1_amd64.deb
 Size: 741380
 MD5sum: d76d30feaf52b763c23715805f9ac7de
 SHA1: c46f3a631a0207a2fbf9710e3364cc592cc87819
@@ -242,7 +242,7 @@ Package: ws-getmac
 Version: 0.1.1
 Architecture: amd64
 Maintainer: niugnep <penguin@niugnep.idv.tw>
-Filename: debs/ws-getmac_0.1.1_amd64.deb
+Filename: ./debs/ws-getmac_0.1.1_amd64.deb
 Size: 593392
 MD5sum: 983782fd8b5f3fa4c72b0c4c1d18524d
 SHA1: 5077e4feba5b25570480069a392533d77841cf32
@@ -255,7 +255,7 @@ Package: ws-hostname-win
 Version: 0.1.1
 Architecture: amd64
 Maintainer: niugnep <penguin@niugnep.idv.tw>
-Filename: debs/ws-hostname-win_0.1.1_amd64.deb
+Filename: ./debs/ws-hostname-win_0.1.1_amd64.deb
 Size: 278680
 MD5sum: 58e631685b0baac683491d3745d13bc9
 SHA1: 968d9070fad2590e05fdfcf7cacc25f12af9afb5
@@ -268,7 +268,7 @@ Package: ws-ipconfig
 Version: 0.1.1
 Architecture: amd64
 Maintainer: niugnep <penguin@niugnep.idv.tw>
-Filename: debs/ws-ipconfig_0.1.1_amd64.deb
+Filename: ./debs/ws-ipconfig_0.1.1_amd64.deb
 Size: 587180
 MD5sum: ac95046a6fd9c1f4d39dfdf4c9cbd095
 SHA1: a2652f09ccb172a36ddd7da64a9de12aeda5fb92
@@ -281,7 +281,7 @@ Package: ws-makecab
 Version: 0.1.1
 Architecture: amd64
 Maintainer: niugnep <penguin@niugnep.idv.tw>
-Filename: debs/ws-makecab_0.1.1_amd64.deb
+Filename: ./debs/ws-makecab_0.1.1_amd64.deb
 Size: 231964
 MD5sum: d19675e9a283da924e045c4cba6adfc2
 SHA1: 98d7749d19d3bcebe49be5d11940eab03624f3af
@@ -294,7 +294,7 @@ Package: ws-more-win
 Version: 0.1.1
 Architecture: amd64
 Maintainer: niugnep <penguin@niugnep.idv.tw>
-Filename: debs/ws-more-win_0.1.1_amd64.deb
+Filename: ./debs/ws-more-win_0.1.1_amd64.deb
 Size: 293124
 MD5sum: c6df1e6af9a270f44aca9f3bfda4fabc
 SHA1: 336139b60082a2a459d90764000f1852f463fe77
@@ -307,7 +307,7 @@ Package: ws-pathping
 Version: 0.1.1
 Architecture: amd64
 Maintainer: niugnep <penguin@niugnep.idv.tw>
-Filename: debs/ws-pathping_0.1.1_amd64.deb
+Filename: ./debs/ws-pathping_0.1.1_amd64.deb
 Size: 486148
 MD5sum: 5a43e8757f10509ed74aa376da9bd7e5
 SHA1: 854ad3376c81ca310d34b4bd8bb700aa04033741
@@ -320,7 +320,7 @@ Package: ws-ping-win
 Version: 0.1.1
 Architecture: amd64
 Maintainer: niugnep <penguin@niugnep.idv.tw>
-Filename: debs/ws-ping-win_0.1.1_amd64.deb
+Filename: ./debs/ws-ping-win_0.1.1_amd64.deb
 Size: 469580
 MD5sum: 46f3cc007a6b8cab7704011aef9cc7e8
 SHA1: 18d9d54c25033beb61f2ef3120ed565a0561173a
@@ -333,7 +333,7 @@ Package: ws-replace
 Version: 0.1.1
 Architecture: amd64
 Maintainer: niugnep <penguin@niugnep.idv.tw>
-Filename: debs/ws-replace_0.1.1_amd64.deb
+Filename: ./debs/ws-replace_0.1.1_amd64.deb
 Size: 185552
 MD5sum: d3a97bb426b6c53f2ca7adbf591bc08b
 SHA1: 260bcc03833c8fc9526f8b680dadb099d3c047ac
@@ -346,7 +346,7 @@ Package: ws-robocopy
 Version: 0.1.1
 Architecture: amd64
 Maintainer: niugnep <penguin@niugnep.idv.tw>
-Filename: debs/ws-robocopy_0.1.1_amd64.deb
+Filename: ./debs/ws-robocopy_0.1.1_amd64.deb
 Size: 265400
 MD5sum: b40d4bf9ce0755185cdaefb905c70c2a
 SHA1: 980e49aff6ad6d24d64acbf89b8828e1b4a59e15
@@ -359,7 +359,7 @@ Package: ws-shutdown
 Version: 0.1.1
 Architecture: amd64
 Maintainer: niugnep <penguin@niugnep.idv.tw>
-Filename: debs/ws-shutdown_0.1.1_amd64.deb
+Filename: ./debs/ws-shutdown_0.1.1_amd64.deb
 Size: 192028
 MD5sum: 361de1043782c591cfeac1d1acfc422c
 SHA1: 2a8711422673fc8ef5330325aded5c0efea263ab
@@ -372,7 +372,7 @@ Package: ws-sort-win
 Version: 0.1.1
 Architecture: amd64
 Maintainer: niugnep <penguin@niugnep.idv.tw>
-Filename: debs/ws-sort-win_0.1.1_amd64.deb
+Filename: ./debs/ws-sort-win_0.1.1_amd64.deb
 Size: 299964
 MD5sum: bc61cca071b8c23c1600a2a6eba961a1
 SHA1: 7519d59c41d999dc35ee1c2520aba22935f06df9
@@ -385,7 +385,7 @@ Package: ws-systeminfo
 Version: 0.1.1
 Architecture: amd64
 Maintainer: niugnep <penguin@niugnep.idv.tw>
-Filename: debs/ws-systeminfo_0.1.1_amd64.deb
+Filename: ./debs/ws-systeminfo_0.1.1_amd64.deb
 Size: 678528
 MD5sum: c171d5f36fb7bcf3b7fbeaecf14d0d41
 SHA1: d201d0ab88bc98e337edd85ccaf4737140f8d1b9
@@ -398,7 +398,7 @@ Package: ws-taskkill
 Version: 0.1.1
 Architecture: amd64
 Maintainer: niugnep <penguin@niugnep.idv.tw>
-Filename: debs/ws-taskkill_0.1.1_amd64.deb
+Filename: ./debs/ws-taskkill_0.1.1_amd64.deb
 Size: 369392
 MD5sum: e51f50f88ccf6686889b4eeba16b32f1
 SHA1: f0cd296297e5bd0a81f4049e78bf1aea15aa276a
@@ -411,7 +411,7 @@ Package: ws-tasklist
 Version: 0.1.1
 Architecture: amd64
 Maintainer: niugnep <penguin@niugnep.idv.tw>
-Filename: debs/ws-tasklist_0.1.1_amd64.deb
+Filename: ./debs/ws-tasklist_0.1.1_amd64.deb
 Size: 337264
 MD5sum: 3ea012a86668e9fdfa7c1c33d78b94cf
 SHA1: 8bb511b1c8046568eca42f1207fdbe69ff64c07f
@@ -424,7 +424,7 @@ Package: ws-tracert
 Version: 0.1.1
 Architecture: amd64
 Maintainer: niugnep <penguin@niugnep.idv.tw>
-Filename: debs/ws-tracert_0.1.1_amd64.deb
+Filename: ./debs/ws-tracert_0.1.1_amd64.deb
 Size: 330824
 MD5sum: b8d4510d8b3359fbe5127fd70bd2b940
 SHA1: 69030d1276135058f6ada526223a2a15f57d4fb5
@@ -437,7 +437,7 @@ Package: ws-tree-win
 Version: 0.1.1
 Architecture: amd64
 Maintainer: niugnep <penguin@niugnep.idv.tw>
-Filename: debs/ws-tree-win_0.1.1_amd64.deb
+Filename: ./debs/ws-tree-win_0.1.1_amd64.deb
 Size: 293924
 MD5sum: 6aacd0836b1f7afceae382ea026c1730
 SHA1: 081ca728bbbcbcc4a56479e1860196661c58d43d
@@ -450,7 +450,7 @@ Package: ws-type-win
 Version: 0.1.1
 Architecture: amd64
 Maintainer: niugnep <penguin@niugnep.idv.tw>
-Filename: debs/ws-type-win_0.1.1_amd64.deb
+Filename: ./debs/ws-type-win_0.1.1_amd64.deb
 Size: 281212
 MD5sum: 67971292c57d19dc3b9e754e5ec93cbf
 SHA1: d4acafa80d662aea32edfd14d3bc3407a375ce9b
@@ -463,7 +463,7 @@ Package: ws-ver
 Version: 0.1.1
 Architecture: amd64
 Maintainer: niugnep <penguin@niugnep.idv.tw>
-Filename: debs/ws-ver_0.1.1_amd64.deb
+Filename: ./debs/ws-ver_0.1.1_amd64.deb
 Size: 205296
 MD5sum: b06b106b28867871a62a0bd120513b1f
 SHA1: ed0e4b1de548aa1b788246c9a7352133d63c1963
@@ -476,7 +476,7 @@ Package: ws-where-win
 Version: 0.1.1
 Architecture: amd64
 Maintainer: niugnep <penguin@niugnep.idv.tw>
-Filename: debs/ws-where-win_0.1.1_amd64.deb
+Filename: ./debs/ws-where-win_0.1.1_amd64.deb
 Size: 297324
 MD5sum: b375c7e69a55d81274a29a864b92b795
 SHA1: 63a8175191d33bbe0d163a6a684563f20440f930
@@ -489,7 +489,7 @@ Package: ws-whoami-win
 Version: 0.1.1
 Architecture: amd64
 Maintainer: niugnep <penguin@niugnep.idv.tw>
-Filename: debs/ws-whoami-win_0.1.1_amd64.deb
+Filename: ./debs/ws-whoami-win_0.1.1_amd64.deb
 Size: 167972
 MD5sum: 5c9a365c367494caab9a55cec70fcab9
 SHA1: 5409268a375e7cadc09ae9941baaf7f7ade722c9
