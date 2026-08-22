@@ -1,153 +1,146 @@
 # Debian2WindowsRepo
-在Linux修復之際，我們需要一個deb倉庫
 
-> [!WARNING]  
-> 胡亂使用本項目導致電腦報廢，後果自負。
+> **在 Linux 修復之際，我們需要一個 `.deb` 倉庫。**
+
+一個收錄各種「把 Windows 體驗帶到 Linux」工具的第三方 Debian 套件倉庫。
+
+本專案的宗旨非常簡單：
+
+> **Linux 已經很好用了，但我們還是可以把它修成 Windows。**
+
+> [!WARNING]
+> **胡亂使用本專案可能導致系統故障甚至無法正常使用。後果自負。**
+>
+> 本倉庫中的套件並非 Debian 官方套件，請在安裝前自行確認套件內容及來源。
 
 ## 食用方式
-1. 下載並安裝公鑰
-```
-sudo curl -fsSL https://stupidestjack.github.io/Debian2WindowsRepo/debian2windows.gpg.key | sudo gpg --dearmor -o /etc/apt/keyrings/debian2windows.gpg
+
+### 1. 安裝倉庫公鑰
+
+```sh
+sudo curl -fsSL https://stupidestjack.github.io/Debian2WindowsRepo/debian2windows.gpg.key \
+  | sudo gpg --dearmor -o /etc/apt/keyrings/debian2windows.gpg
 ```
 
-2. 加入來源
-```
-echo "deb [signed-by=/etc/apt/keyrings/debian2windows.gpg] https://stupidestjack.github.io/Debian2WindowsRepo/ /" | sudo tee /etc/apt/sources.list.d/linux2windows.list
+### 2. 加入套件來源
+
+```sh
+echo "deb [signed-by=/etc/apt/keyrings/debian2windows.gpg] https://stupidestjack.github.io/Debian2WindowsRepo/ /" \
+  | sudo tee /etc/apt/sources.list.d/linux2windows.list
 ```
 
-3. 更新來源 
-```
+### 3. 更新套件索引
+
+```sh
 sudo apt update
 ```
 
+完成後，即可使用 `apt` 安裝本倉庫中的套件。
+
+例如：
+
+```sh
+sudo apt install winver
+```
+
+> 套件名稱及可用版本請以倉庫實際提供的索引為準。
+
 ## 倉庫內的套件
-按照A-Z字母排列。
 
- * [activate-linux](https://github.com/MrGlockenspiel/activate-linux)：修复 Linux 没有激活水印的 Bug
- * [autofix](https://github.com/xusk1234/Linux-Auto-Fix/)：修复 Linux 没有自動修復的 Bug
- * [bsod](https://github.com/heyManNice/bsod)：修复 Linux 没有 bsod 的 Bug
- * [cmd](https://github.com/ChenPi11/cmd)：修复 Linux 没有 cmd 的 Bug
- * [control](https://github.com/phillin-liu/WindowsControlPanel-for-Linux)：修复 Linux 没有控制面板的 Bug
- * [libschrodinger](https://github.com/LyCecilion/libschrodinger)：修复 Linux 没有「应用程序错误」窗口的 Bug
- * [mkwin](https://github.com/macOS-Terminal/mkwin)：從原始碼構建赤石科技的包管理器
- * [regedit](https://github.com/heyManNice/regedit)：修复 Linux 没有注册表编辑器的 Bug 
- * [service](https://github.com/StupidestJack/ServiceForLinux/)：修复 Linux 没有 Service 的 Bug
- * [winver](https://github.com/DeepslateQAQ/linux-winver)：修复 Linux 没有 winver Bug
- * [windowshit](https://github.com/HelloAIXIAOJI/windowshit)：修复 Linux 没有 24 種命令的 Bug
-   * ws-choice：修复 Linux 没有「choice」命令的 Bug
-   * ws-clip：修复 Linux 没有「clip」命令的 Bug
-   * ws-expand：修复 Linux 没有「expand」命令的 Bug
-   * ws-fc：修复 Linux 没有「fc」命令的 Bug
-   * ws-findstr：修复 Linux 没有「findstr」命令的 Bug
-   * ws-getmac：修复 Linux 没有「getmac」命令的 Bug
-   * ws-hostname-win：修复 Linux 没有「hostname」命令的 Bug（需輸入`hostname-win`）
-   * ws-ipconfig：修复 Linux 没有「ipconfig」命令的 Bug
-   * ws-makecab：修复 Linux 没有「makecab」命令的 Bug
-   * ws-more-win：修复 Linux 没有「more」命令的 Bug（需輸入`more-win`）
-   * ws-pathping：修复 Linux 没有「pathping」命令的 Bug
-   * ws-ping-win：修复 Linux 没有「ping」命令的 Bug（需輸入`ping-win`）
-   * ws-replace：修复 Linux 没有「replace」命令的 Bug
-   * ws-robocopy：修复 Linux 没有「robocopy」命令的 Bug
-   * ws-shutdown：修复 Linux 没有「shutdown」命令的 Bug
-   * ws-sort-win：修复 Linux 没有「sort」命令的 Bug（需輸入`sort-win`）
-   * ws-systeminfo：修复 Linux 没有「systeminfo」命令的 Bug
-   * ws-taskkill：修复 Linux 没有「taskkill」命令的 Bug
-   * ws-tasklist：修复 Linux 没有「tasklist」命令的 Bug
-   * ws-tracert：修复 Linux 没有「tracert」命令的 Bug
-   * ws-tree-win：修复 Linux 没有「tree」命令的 Bug（需輸入`tree-win`）
-   * ws-type-win：修复 Linux 没有「type」命令的 Bug（需輸入`type-win`）
-   * ws-ver：修复 Linux 没有「ver」命令的 Bug
-   * ws-where-win：修复 Linux 没有「where」命令的 Bug（需輸入`where-win`）
-   * ws-whoami-win：修复 Linux 没有「whoami」命令的 Bug（需輸入`whoami-win`）
+以下套件依名稱排序。
 
-## 貢獻指南
-建立deb文件需要一個名為`套件_版本_架構`的目錄，如`package_1.0-1_amd64`。
+| 套件 | 專案 | 說明 |
+| --- | --- | --- |
+| `activate-linux` | [MrGlockenspiel/activate-linux](https://github.com/MrGlockenspiel/activate-linux) | 修復 Linux 沒有「啟用 Windows」浮水印的 Bug |
+| `autofix` | [xusk1234/Linux-Auto-Fix](https://github.com/xusk1234/Linux-Auto-Fix/) | 修復 Linux 沒有自動修復的 Bug |
+| `bsod` | [heyManNice/bsod](https://github.com/heyManNice/bsod) | 修復 Linux 沒有 BSOD 的 Bug |
+| `cmd` | [ChenPi11/cmd](https://github.com/ChenPi11/cmd) | 修復 Linux 沒有 `cmd` 的 Bug |
+| `control` | [phillin-liu/WindowsControlPanel-for-Linux](https://github.com/phillin-liu/WindowsControlPanel-for-Linux) | 修復 Linux 沒有控制台的 Bug |
+| `libschrodinger` | [LyCecilion/libschrodinger](https://github.com/LyCecilion/libschrodinger) | 修復 Linux 沒有「應用程式錯誤」視窗的 Bug |
+| `mkwin` | [macOS-Terminal/mkwin](https://github.com/macOS-Terminal/mkwin) | 從原始碼建構赤石科技的套件管理器 |
+| `regedit` | [heyManNice/regedit](https://github.com/heyManNice/regedit) | 修復 Linux 沒有登錄編輯程式的 Bug |
+| `service` | [StupidestJack/ServiceForLinux](https://github.com/StupidestJack/ServiceForLinux/) | 修復 Linux 沒有 Service 的 Bug |
+| `winver` | [DeepslateQAQ/linux-winver](https://github.com/DeepslateQAQ/linux-winver) | 修復 Linux 沒有 `winver` 的 Bug |
+| `windowshit` | [HelloAIXIAOJI/windowshit](https://github.com/HelloAIXIAOJI/windowshit) | 修復 Linux 沒有 24 種 Windows 命令的 Bug |
 
-本倉庫只有amd64架構，因為我不想編譯，除非有人想幫我編譯其他架構（doge
+### `windowshit` 提供的命令
 
-目錄架構：
-```txt
-package_1.0-1_amd64
-├── DEBIAN
-│   └── control
-└── 根目錄下的任何文件
-```
-以cmd舉例：
-```txt
-cmd_0.1-1_amd64
-├── DEBIAN
-│   └── control
-└── usr
-    └── bin
-        ├── cmd.exe
-        └── COMMAND.COM
-```
+`windowshit` 包含以下子套件：
 
+| 套件 | 修復的 Bug | 備註 |
+| --- | --- | --- |
+| `ws-choice` | 沒有 `choice` 命令 | |
+| `ws-clip` | 沒有 `clip` 命令 | |
+| `ws-expand` | 沒有 `expand` 命令 | |
+| `ws-fc` | 沒有 `fc` 命令 | |
+| `ws-findstr` | 沒有 `findstr` 命令 | |
+| `ws-getmac` | 沒有 `getmac` 命令 | |
+| `ws-hostname-win` | 沒有 `hostname` 命令 | 使用 `hostname-win` |
+| `ws-ipconfig` | 沒有 `ipconfig` 命令 | |
+| `ws-makecab` | 沒有 `makecab` 命令 | |
+| `ws-more-win` | 沒有 `more` 命令 | 使用 `more-win` |
+| `ws-pathping` | 沒有 `pathping` 命令 | |
+| `ws-ping-win` | 沒有 `ping` 命令 | 使用 `ping-win` |
+| `ws-replace` | 沒有 `replace` 命令 | |
+| `ws-robocopy` | 沒有 `robocopy` 命令 | |
+| `ws-shutdown` | 沒有 `shutdown` 命令 | |
+| `ws-sort-win` | 沒有 `sort` 命令 | 使用 `sort-win` |
+| `ws-systeminfo` | 沒有 `systeminfo` 命令 | |
+| `ws-taskkill` | 沒有 `taskkill` 命令 | |
+| `ws-tasklist` | 沒有 `tasklist` 命令 | |
+| `ws-tracert` | 沒有 `tracert` 命令 | |
+| `ws-tree-win` | 沒有 `tree` 命令 | 使用 `tree-win` |
+| `ws-type-win` | 沒有 `type` 命令 | 使用 `type-win` |
+| `ws-ver` | 沒有 `ver` 命令 | |
+| `ws-where-win` | 沒有 `where` 命令 | 使用 `where-win` |
+| `ws-whoami-win` | 沒有 `whoami` 命令 | 使用 `whoami-win` |
 
-control文件格式：
-```toml
-Package: 套件名
-Version: 版本（若無則填入1.0-1）
-Section: utils
-Priority: optional
-Architecture: amd64
-Maintainer: 維護者 <信箱>
-Description: 修复 Linux 没有 ______ 的 Bug
-```
-Maintainer 建議使用維護者，以符合 `deb` 包的規範。
+## 相容性
 
-請記得確保文件是755：
-```sh
-chmod 755 usr/bin/*
-```
+目前倉庫只提供 **AMD64 (`amd64`)** 架構的套件。
 
-針對桌面應用程式，請建立desktop文件並放在套件目錄/usr/share/applications/下：
-```toml
-[Desktop Entry]
-Version=1.0
-Type=Application
-Name=套件名
-Comment=套件名 for Linux
-Exec=軟體位置 %f
-Icon=/usr/share/pixmaps/套件圖示.png
-Terminal=false
-Categories=Utility;
-```
+其他架構暫不提供預編譯套件。
 
-封裝deb文件：
-```sh
-dpkg-deb --build package_1.0-1_amd64
-```
+如果你願意幫忙編譯其他架構，歡迎提交 PR。
 
-產生索引：
-```sh
-# 產生 Packages 索引檔
-dpkg-scanpackages --multiversion debs /dev/null > Packages
-
-# 壓縮索引檔（APT 優先讀取壓縮檔）
-gzip -k -f Packages
-
-# 生成簡單的 Release 檔案
-apt-ftparchive release . > Release
-```
+> 因為我不想編譯，除非有人想幫我編譯其他架構（doge
 
 ## 貢獻
-非常歡迎任何人fork並提交PR，每一條PR我都會看的。
- 
-牆裂建議使用GPG金鑰對自己的commit簽名，以免PR被關閉 <img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Doge.svg" style="height: 1em; vertical-align: middle;" />
 
-此外也歡迎項目開發者親自維護親自拉石，以確保Linux赤石科技生態穩定 <img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Doge.svg" style="height: 1em; vertical-align: middle;" />
+歡迎任何人 Fork 本專案並提交 Pull Request。
+
+如果你想新增套件或更新現有套件，請先閱讀：
+
+**[CONTRIBUTING.md](CONTRIBUTING.md)**
+
+每一條 PR 我都會看的。
+
+此外，也非常歡迎上游專案的開發者親自維護自己的套件，讓 Linux 赤石科技生態更加穩定。
+
+> 強烈建議使用 GPG 金鑰簽署自己的 Commit，以避免 PR 被關閉。
+>
+> 也歡迎各位專案開發者親自維護、親自拉石，為 Linux 赤石科技生態貢獻一份力量。
 
 ## 特別感謝
-項目開發者：
- * [@LyCecilion](https://github.com/LyCecilion)
- * [@ChenPi11](https://github.com/ChenPi11)
- * [@heyManNice](https://github.com/heyManNice)
- * [@HelloAIXIAOJI](https://github.com/HelloAIXIAOJI)
- * [@macOS-Terminal](https://github.com/macOS-Terminal)
- * [@MrGlockenspiel](https://github.com/MrGlockenspiel)
- * [@xusk1234](https://github.com/xusk1234)
- * [@StupidestJack](https://github.com/StupidestJack)
 
-倉庫維護者：
- * [@FreshingAir](https://github.com/FreshingAir)
+### 專案開發者
+
+- [@LyCecilion](https://github.com/LyCecilion)
+- [@ChenPi11](https://github.com/ChenPi11)
+- [@heyManNice](https://github.com/heyManNice)
+- [@HelloAIXIAOJI](https://github.com/HelloAIXIAOJI)
+- [@macOS-Terminal](https://github.com/macOS-Terminal)
+- [@MrGlockenspiel](https://github.com/MrGlockenspiel)
+- [@xusk1234](https://github.com/xusk1234)
+- [@StupidestJack](https://github.com/StupidestJack)
+
+### 倉庫維護者
+
+- [@FreshingAir](https://github.com/FreshingAir)
+- [@StupidestJack](https://github.com/StupidestJack)
+
+
+### 文件
+
+- ChatGPT（GPT-5.6 Luna）
+- [@StupidestJack](https://github.com/StupidestJack)
