@@ -29,11 +29,9 @@ jobs:
 
       - name: Import GPG Key
         env:
-          GPG_PRIVATE_KEY: ${{ secrets.GPG_PRIVATE_KEY }}
-          GPG_PASSPHRASE: ${{ secrets.GPG_PASSPHRASE }}
+          GPG_PRIVATE_KEY: ${{ secrets.GPGPRIVATEKEY }}
         run: |
           echo "$GPG_PRIVATE_KEY" | gpg --batch --import
-          # 導出公鑰到倉庫根目錄
           gpg --armor --export "stupidestjack@users.noreply.github.com" > debian2windows.gpg.key
 
       - name: Generate Packages and Release files
