@@ -4,13 +4,21 @@
 > [!WARNING]  
 > 胡亂使用本項目導致電腦報廢，後果自負。
 
-## 食用方法
-將本倉庫加入您的 APT 源：
-```bash
-echo "deb [trusted=yes] https://stupidestjack.github.io/Debian2WindowsRepo/ /" | sudo tee /etc/apt/sources.list.d/linux2windows.list
+## 食用方式
+1. 下載並安裝公鑰
+```
+sudo curl -fsSL https://stupidestjack.github.io/Debian2WindowsRepo/debian2windows.gpg.key | sudo gpg --dearmor -o /etc/apt/keyrings/debian2windows.gpg
+```
+
+2. 加入來源
+```
+echo "deb [signed-by=/etc/apt/keyrings/debian2windows.gpg] https://stupidestjack.github.io/Debian2WindowsRepo/ /" | sudo tee /etc/apt/sources.list.d/linux2windows.list
+```
+
+3. 更新來源 
+```
 sudo apt update
 ```
-因為本項目沒有能拿來簽署的GPG金鑰，必須強制信任。
 
 ## 倉庫內的套件
 按照A-Z字母排列。
