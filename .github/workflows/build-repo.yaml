@@ -1,0 +1,71 @@
+name: Build and Sign APT Repo
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - '**/*.deb'
+      - '.github/workflows/build-repo.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-sign:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Install APT tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y dpkg-dev apt-utils gpg
+
+      - name: Import GPG Key
+        env:
+          GPG_PRIVATE_KEY: ${{ secrets.GPG_PRIVATE_KEY }}
+          GPG_PASSPHRASE: ${{ secrets.GPG_PASSPHRASE }}
+        run: |
+          echo "$GPG_PRIVATE_KEY" | gpg --batch --import
+          # 導出公鑰到倉庫根目錄
+          gpg --armor --export "stupidestjack@users.noreply.github.com" > debian2windows.gpg.key
+
+      - name: Generate Packages and Release files
+        run: |
+          # 產生 Packages 與壓縮檔
+          dpkg-scanpackages --multiversion . /dev/null > Packages
+          gzip -k -f Packages
+
+          # 產生 Release
+          apt-ftparchive release . > Release
+
+      - name: Sign Release files
+        env:
+          GPG_PASSPHRASE: ${{ secrets.GPG_PASSPHRASE }}
+        run: |
+          # 生成 InRelease 與 Release.gpg
+          if [ -z "$GPG_PASSPHRASE" ]; then
+            gpg --batch --yes --default-key "stupidestjack@users.noreply.github.com" --clearsign -o InRelease Release
+            gpg --batch --yes --default-key "stupidestjack@users.noreply.github.com" -abs -o Release.gpg Release
+          else
+            gpg --batch --yes --pinentry-mode loopback --passphrase "$GPG_PASSPHRASE" --default-key "stupidestjack@users.noreply.github.com" --clearsign -o InRelease Release
+            gpg --batch --yes --pinentry-mode loopback --passphrase "$GPG_PASSPHRASE" --default-key "stupidestjack@users.noreply.github.com" -abs -o Release.gpg Release
+          fi
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add Packages Packages.gz Release InRelease Release.gpg debian2windows.gpg.key
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore: regenerate repo metadata and GPG signatures [skip ci]"
+            git push
+          fi
