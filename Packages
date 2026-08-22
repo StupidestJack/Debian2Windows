@@ -25,15 +25,15 @@ Priority: optional
 Description: 修复了 Linux 没有 BSoD 的 Bug
 
 Package: autofix
-Version: 0.1-2
+Version: 0.1-3
 Architecture: amd64
 Maintainer: niugnep <penguin@niugnep.idv.tw>
 Depends: python3 (>= 3.8), python3-tk
-Filename: debs/autofix_1.0.0_amd64.deb
-Size: 4204
-MD5sum: e143f38e00f1e170f349390a182b48b2
-SHA1: d6001a14aca2bcf9a0b8c7599be7e5b317a673db
-SHA256: 098229fd5fa8d0ec3f7ffd8c1f9aed927515444318993fbffb3129ce111af9f8
+Filename: debs/autofix_0.1-3_amd64.deb
+Size: 9044
+MD5sum: 8fdce887b421b1706187586114a05c4a
+SHA1: fe9693a9407621b398cf6dcd2826975bfb851cb7
+SHA256: c5be5d0edf57317d073bb696aa34800a57c3efd58fceb58b3298438a8dcacc0e
 Section: utils
 Priority: optional
 Description: 修复 Linux 没有自動修復的 Bug
@@ -65,15 +65,15 @@ Priority: optional
 Description: 修复 Linux 没有 control 的 Bug
 
 Package: control
-Version: 1.1.0
+Version: 1.1.0-1
 Architecture: amd64
 Maintainer: niugnep <penguin@niugnep.idv.tw>
 Depends: python3 (>= 3.6), python3-pyqt5
-Filename: debs/control_1.1.0_amd64.deb
-Size: 259072
-MD5sum: 16ded652082fbfc11ab670c95e478438
-SHA1: c000650138b498a828e0cc77f9ab6151000f4203
-SHA256: 2250536c990e0f664fae1a6d3451fe285bb4e90e724b5b034875b9513b861ab8
+Filename: debs/control_1.1.0-1_amd64.deb
+Size: 259064
+MD5sum: 8146569cc7409c024bcfd08caf47e5d8
+SHA1: 8f9c9b1ba8d6bbf77810e3e12b236968adc3d104
+SHA256: d3c0aa60292692cd7d164fda4fb5d8f14ea95675771f6fbb8ff7edb4895d3a35
 Section: utils
 Priority: optional
 Description: 修复 Linux 没有控制面板的 Bug
@@ -120,15 +120,15 @@ Priority: optional
 Description: 修复 Linux 没有 注册表编辑器 的 Bug
 
 Package: service
-Version: 0.1-2
+Version: 0.1-3
 Architecture: amd64
 Maintainer: niugnep <penguin@niugnep.idv.tw>
 Depends: python3 (>= 3.8), python3-tk
-Filename: debs/service_1.0.0_amd64.deb
-Size: 14936
-MD5sum: a7272ca69b30dfdf5ee5852567bdb05e
-SHA1: eed3098addee9045ba1526d53e60642b82a602b5
-SHA256: e8668deb44c2a5f5ac66ab1a830ae2f4d38e59807bf11523b4d08214d76a4222
+Filename: debs/service_0.1-3_amd64.deb
+Size: 15016
+MD5sum: f7e5449df9dbd813fadd8d24e02e65aa
+SHA1: b0ea04d63e4b80bf68065c56214f4843bdd252f4
+SHA256: 4640eb99b1adc763cd608285faa9c0f5b4f0d4e2ac897d6be8c50005770484c3
 Section: utils
 Priority: optional
 Description: 修复 Linux 没有 Service 的 Bug
@@ -148,14 +148,14 @@ Priority: optional
 Description: 修复 Linux 的 24 個 Bug
 
 Package: winver
-Version: 0.1-2
+Version: 0.1-3
 Architecture: amd64
 Maintainer: niugnep <penguin@niugnep.idv.tw>
-Filename: debs/winver_0.1-2_amd64.deb
-Size: 230152
-MD5sum: 42703ce5a9f7d5e91b203b5e43988963
-SHA1: bdb6f70d5ebea7377f943eae2e5a9bdb96b3afa8
-SHA256: eadbbfc9ad7b6e5471c3f7df1246ed1a66da8a686e146539379958cb5dea995a
+Filename: debs/winver_0.1-3_amd64.deb
+Size: 230256
+MD5sum: bd82ffe6e92788e8b7be78ef367f3566
+SHA1: 54f6a92cb785d06f4351e6c616382b2dfdd73779
+SHA256: 388cf82201c7e45f52e414923a6c5fdeabaf4950df95a8099645dfc5cfbf55db
 Section: utils
 Priority: optional
 Description: 修复 Linux 没有 winver 的 Bug
