@@ -1,4 +1,4 @@
-name: Build and Sign APT Repo
+name: Build, Sign and Deploy APT Repo
 
 on:
   push:
@@ -11,6 +11,12 @@ on:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
 
 jobs:
   build-and-sign:
@@ -36,25 +42,14 @@ jobs:
 
       - name: Generate Packages and Release files
         run: |
-          # 產生 Packages 與壓縮檔
           dpkg-scanpackages --multiversion . /dev/null > Packages
           gzip -k -f Packages
-
-          # 產生 Release
           apt-ftparchive release . > Release
 
       - name: Sign Release files
-        env:
-          GPG_PASSPHRASE: ${{ secrets.GPG_PASSPHRASE }}
         run: |
-          # 生成 InRelease 與 Release.gpg
-          if [ -z "$GPG_PASSPHRASE" ]; then
-            gpg --batch --yes --default-key "stupidestjack@users.noreply.github.com" --clearsign -o InRelease Release
-            gpg --batch --yes --default-key "stupidestjack@users.noreply.github.com" -abs -o Release.gpg Release
-          else
-            gpg --batch --yes --pinentry-mode loopback --passphrase "$GPG_PASSPHRASE" --default-key "stupidestjack@users.noreply.github.com" --clearsign -o InRelease Release
-            gpg --batch --yes --pinentry-mode loopback --passphrase "$GPG_PASSPHRASE" --default-key "stupidestjack@users.noreply.github.com" -abs -o Release.gpg Release
-          fi
+          gpg --batch --yes --default-key "stupidestjack@users.noreply.github.com" --clearsign -o InRelease Release
+          gpg --batch --yes --default-key "stupidestjack@users.noreply.github.com" -abs -o Release.gpg Release
 
       - name: Commit and push changes
         run: |
@@ -67,3 +62,22 @@ jobs:
             git commit -m "chore: regenerate repo metadata and GPG signatures [skip ci]"
             git push
           fi
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.'
+
+  deploy-pages:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build-and-sign
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
