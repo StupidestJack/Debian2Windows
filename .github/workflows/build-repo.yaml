@@ -4,9 +4,6 @@ on:
   push:
     branches:
       - main
-    paths:
-      - '**/*.deb'
-      - '.github/workflows/build-repo.yml'
   workflow_dispatch:
 
 permissions:
