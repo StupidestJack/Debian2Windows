@@ -1,3 +1,4 @@
+按照 Debian2WindowsRepo 的「赤石科技」風格，幫你擴充 ElevenDE 的部份：
 # Debian2WindowsRepo
 
 > **在 Linux 修復之際，我們需要一個 `.deb` 倉庫。**
@@ -56,6 +57,7 @@ sudo apt install winver
 | `bsod` | [heyManNice/bsod](https://github.com/heyManNice/bsod) | 修復 Linux 沒有 BSOD 的 Bug |
 | `cmd` | [ChenPi11/cmd](https://github.com/ChenPi11/cmd) | 修復 Linux 沒有 `cmd` 的 Bug |
 | `control` | [phillin-liu/WindowsControlPanel-for-Linux](https://github.com/phillin-liu/WindowsControlPanel-for-Linux) | 修復 Linux 沒有控制台的 Bug |
+| `elevende` | [SYSTEM-Intel-MIC/ElevenDE](https://github.com/SYSTEM-Intel-MIC/ElevenDE) | 修復 Linux 沒有 Windows 11 桌面的 Bug |
 | `libschrodinger` | [LyCecilion/libschrodinger](https://github.com/LyCecilion/libschrodinger) | 修復 Linux 沒有「應用程式錯誤」視窗的 Bug |
 | `mkwin` | [macOS-Terminal/mkwin](https://github.com/macOS-Terminal/mkwin) | 從原始碼建構赤石科技的套件管理器 |
 | `regedit` | [heyManNice/regedit](https://github.com/heyManNice/regedit) | 修復 Linux 沒有登錄編輯程式的 Bug |
@@ -95,6 +97,34 @@ sudo apt install winver
 | `ws-where-win` | 沒有 `where` 命令 | 使用 `where-win` |
 | `ws-whoami-win` | 沒有 `whoami` 命令 | 使用 `whoami-win` |
 
+### `elevende` 提供的元件
+
+`elevende` 是一個 Windows 11 風格的桌面環境，包含以下元件：
+
+| 套件 | 修復的 Bug | 說明 |
+| --- | --- | --- |
+| `elevende-assets` | 沒有 Windows 11 圖示和桌布 | 提供 Fluent 風格圖示、桌布、Openbox/picom 配置 |
+| `elevende-core` | 沒有 Windows 11 任務欄 | 工作列、開始功能表、通知中心、鎖定畫面、Win+R、Ctrl+Alt+Del |
+| `elevende-calc` | 沒有小算盤 | Windows 11 風格計算機 |
+| `elevende-notepad` | 沒有記事本 | Windows 11 風格文字編輯器 |
+| `elevende-photos` | 沒有相片 | Windows 11 風格圖片檢視器 |
+| `elevende-taskmgr` | 沒有工作管理員 | Windows 11 風格系統監控 |
+| `elevende-settings` | 沒有設定 | Windows 11 風格設定面板 |
+| `elevende-explorer` | 沒有檔案總管 | Windows 11 風格檔案管理器（Lindows Explorer） |
+| `elevende-screenshot` | 沒有截圖工具 | Windows 11 風格截圖工具 |
+
+#### 安裝 ElevenDE
+
+```sh
+# 安裝完整 ElevenDE 桌面（全家桶）
+sudo apt install elevende
+
+# 或只安裝特定元件
+sudo apt install elevende-core elevende-explorer
+```
+
+> `elevende` 是虛擬套件，會自動安裝所有 ElevenDE 元件。
+
 ## 相容性
 
 目前倉庫只提供 **AMD64 (`amd64`)** 架構的套件。
@@ -133,6 +163,7 @@ sudo apt install winver
 - [@MrGlockenspiel](https://github.com/MrGlockenspiel)
 - [@xusk1234](https://github.com/xusk1234)
 - [@StupidestJack](https://github.com/StupidestJack)
+- [@SYSTEM-Intel-MIC](https://github.com/SYSTEM-Intel-MIC)
 
 ### 倉庫維護者
 
@@ -143,4 +174,5 @@ sudo apt install winver
 ### 文件
 
 - ChatGPT（GPT-5.6 Luna）
+- Deepseek-V3（Instant）
 - [@StupidestJack](https://github.com/StupidestJack)
