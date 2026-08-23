@@ -78,6 +78,180 @@ Section: utils
 Priority: optional
 Description: 修复 Linux 没有控制面板的 Bug
 
+Package: elevende
+Version: 3.5.1
+Architecture: all
+Maintainer: niugnep <penguin@niugnep.idv.tw>
+Depends: elevende-assets (= 3.5.1),
+         elevende-core (= 3.5.1),
+         elevende-calc (= 3.5.1),
+         elevende-notepad (= 3.5.1),
+         elevende-photos (= 3.5.1),
+         elevende-taskmgr (= 3.5.1),
+         elevende-settings (= 3.5.1),
+         elevende-explorer (= 3.5.1),
+         elevende-screenshot (= 3.5.1)
+Filename: ./debs/elevende_3.5.1_all.deb
+Size: 1124
+MD5sum: 092abfa03368c709aca23fdf9ea66bb1
+SHA1: ba5d04578480fd83da159a44f8bf7e23cc635986
+SHA256: ff53b46acf37a632872fa9be0cf445e2d02f208082c3b172cfaf21424ec07765
+Description: ElevenDE Desktop Environment (Metapackage)
+ ElevenDE is a Windows 11 style desktop environment for Debian-based
+ Linux distributions, built on X11, Openbox, picom, Qt 6 and GTK 3.
+ .
+ This is a metapackage that depends on all ElevenDE components.
+ Installing this package will pull in the complete ElevenDE desktop
+ environment.
+ .
+ Components:
+  - elevende-assets: icons, wallpapers, configurations
+  - elevende-core: taskbar, start menu, session management
+  - elevende-calc: Windows 11 style calculator
+  - elevende-notepad: Windows 11 style text editor
+  - elevende-photos: Windows 11 style image viewer
+  - elevende-taskmgr: Windows 11 style task manager
+  - elevende-settings: Windows 11 style settings panel
+  - elevende-explorer: Windows 11 style file manager
+  - elevende-screenshot: Windows 11 style screenshot tool
+ .
+ This package contains no files itself; it only depends on the
+ individual ElevenDE components.
+
+Package: elevende-assets
+Version: 3.5.1
+Architecture: all
+Maintainer: niugnep <penguin@niugnep.idv.tw>
+Filename: ./debs/elevende-assets_3.5.1_all.deb
+Size: 5601688
+MD5sum: aecbfeac3e748519a3830921ab4de03d
+SHA1: 12ef01c6d7499adc3ab4690e0dab414f01df0658
+SHA256: 91ff1e0e59cbe6a9c51bbb94cbbd69e9bae3375c55ee2fb0184c678c94e0cfff
+Description: ElevenDE shared assets (icons, wallpapers, configurations)
+ Shared assets for the ElevenDE desktop environment.
+ .
+ This package provides icons, wallpapers, Openbox/picom configurations,
+ menu definitions, shortcuts, and SAS configuration used by all
+ ElevenDE components.
+
+Package: elevende-calc
+Version: 3.5.1
+Architecture: amd64
+Maintainer: niugnep <penguin@niugnep.idv.tw>
+Depends: libqt6core6, libqt6gui6, libqt6widgets6, elevende-assets (= 3.5.1)
+Recommends: elevende-core
+Filename: ./debs/elevende-calc_3.5.1_amd64.deb
+Size: 19908
+MD5sum: b5d2c798b075ca4788797be3d734fd67
+SHA1: 32a647296fc2a04e438b77c87bf89f84ad0f1cc0
+SHA256: e9e3ebfc46273f2e386a8cab8eeb307b5269c30e531845d08a2d29f970dc7583
+Description: ElevenDE Calculator - Windows 11 style calculator
+ Binary: elevende-calc
+
+Package: elevende-core
+Version: 3.5.1
+Architecture: amd64
+Maintainer: niugnep <penguin@niugnep.idv.tw>
+Depends: openbox (>= 3.6),
+         picom (>= 8),
+         xterm,
+         libx11-6, libxft2, libxtst6, libxi6, libpng16-16,
+         libgdk-pixbuf-2.0-0,
+         libqt6core6, libqt6gui6, libqt6widgets6,
+         libgtk-3-0
+Recommends: elevende-assets (>= 3.5.1)
+Filename: ./debs/elevende-core_3.5.1_amd64.deb
+Size: 158788
+MD5sum: 1dca7a8abbecf8c135c5da222a66b891
+SHA1: b4fcbcc71de104f2881ed48feb0dfa1319de5b26
+SHA256: d525b478409c6ec2cc544d0a5ca3721a175ad600eec9efa987d25a33e1d0a6b8
+Description: ElevenDE Core - Windows 11 style desktop shell
+ Core components of the ElevenDE desktop environment.
+
+Package: elevende-explorer
+Version: 3.5.1
+Architecture: amd64
+Maintainer: niugnep <penguin@niugnep.idv.tw>
+Depends: libqt6core6, libqt6gui6, libqt6widgets6, elevende-assets (= 3.5.1), libgtk-3-0
+Recommends: elevende-core
+Filename: ./debs/elevende-explorer_3.5.1_amd64.deb
+Size: 107836
+MD5sum: 05c916500b2f5350b0c39a3adc4ef482
+SHA1: 64adc2616e88a521c751fb0c3e0be3543827a1ea
+SHA256: fd8022de171724a7cb1e8edee0bf17eaa443bfcf177dc0e669edb39a26aa75ba
+Description: Lindows Explorer - Windows 11 style file manager
+ Binary: explorer.exe
+
+Package: elevende-notepad
+Version: 3.5.1
+Architecture: amd64
+Maintainer: niugnep <penguin@niugnep.idv.tw>
+Depends: libqt6core6, libqt6gui6, libqt6widgets6, elevende-assets (= 3.5.1)
+Recommends: elevende-core
+Filename: ./debs/elevende-notepad_3.5.1_amd64.deb
+Size: 28720
+MD5sum: 498d29314a275ce4070d32ace78bb182
+SHA1: 6d4f0b0f074c062f80c0990b4e7b9881ff973dea
+SHA256: f7c201dcb21387e5edd4e57a957e26b7341201084f732ad2363593252c2250fb
+Description: ElevenDE Notepad - Windows 11 style text editor
+ Binary: elevende-notepad
+
+Package: elevende-photos
+Version: 3.5.1
+Architecture: amd64
+Maintainer: niugnep <penguin@niugnep.idv.tw>
+Depends: libqt6core6, libqt6gui6, libqt6widgets6, elevende-assets (= 3.5.1)
+Recommends: elevende-core
+Filename: ./debs/elevende-photos_3.5.1_amd64.deb
+Size: 18960
+MD5sum: 88624bad7cab23ca95ae6b57e146f2a4
+SHA1: 730d75a51e0d7746676943cc55e21d9c8d74e674
+SHA256: 1e03d55922622454ef1418ee4db20bfc4b2507e1b4b1b3ea286649e52f1066fe
+Description: ElevenDE Photos - Windows 11 style image viewer
+ Binary: elevende-photos
+
+Package: elevende-screenshot
+Version: 3.5.1
+Architecture: amd64
+Maintainer: niugnep <penguin@niugnep.idv.tw>
+Depends: libqt6core6, libqt6gui6, libqt6widgets6, elevende-assets (= 3.5.1)
+Recommends: elevende-core
+Filename: ./debs/elevende-screenshot_3.5.1_amd64.deb
+Size: 4784
+MD5sum: 349254836e570998877f7590b12d5b09
+SHA1: 99f9bf84a1ef77815d6701a7d87d7102d5684563
+SHA256: 828fe2424bc236d980dc93e0ea8bb795268cd95aeb1061143d850f88db42fe2c
+Description: ElevenDE Screenshot Tool - Windows 11 style screen capture
+ Binary: elevende-screenshot
+
+Package: elevende-settings
+Version: 3.5.1
+Architecture: amd64
+Maintainer: niugnep <penguin@niugnep.idv.tw>
+Depends: libqt6core6, libqt6gui6, libqt6widgets6, elevende-assets (= 3.5.1)
+Recommends: elevende-core
+Filename: ./debs/elevende-settings_3.5.1_amd64.deb
+Size: 98656
+MD5sum: f893c52f034e3b6fc178fe1025166bdc
+SHA1: 85630a7e172a2aaf20c2f301efbec46b43c131e5
+SHA256: b826dce5c886b2392eb2bbbed47662d14f5207d2f688eabd0443f721f40eec58
+Description: ElevenDE Settings Panel - Windows 11 style configuration tool
+ Binary: elevende-settings
+
+Package: elevende-taskmgr
+Version: 3.5.1
+Architecture: amd64
+Maintainer: niugnep <penguin@niugnep.idv.tw>
+Depends: libqt6core6, libqt6gui6, libqt6widgets6, elevende-assets (= 3.5.1)
+Recommends: elevende-core
+Filename: ./debs/elevende-taskmgr_3.5.1_amd64.deb
+Size: 49364
+MD5sum: 3d511ed92fd3a6d642a868d9f870b5dc
+SHA1: 6ef52ac5e924c1f152d1580c03ea225a609bc077
+SHA256: aeda45f1427d71564983e3fc2cce458451ae7892ae268a1be3d953cfacdbea08
+Description: ElevenDE Task Manager - Windows 11 style system monitor
+ Binary: elevende-taskmgr
+
 Package: libschrodinger
 Version: 1.0-1
 Architecture: amd64
