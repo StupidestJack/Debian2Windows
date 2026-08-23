@@ -1,4 +1,3 @@
-按照 Debian2WindowsRepo 的「赤石科技」風格，幫你擴充 ElevenDE 的部份：
 # Debian2WindowsRepo
 
 > **在 Linux 修復之際，我們需要一個 `.deb` 倉庫。**
