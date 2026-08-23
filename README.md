@@ -101,17 +101,17 @@ sudo apt install winver
 
 `elevende` 是一個 Windows 11 風格的桌面環境，包含以下元件：
 
-| 套件 | 修復的 Bug | 說明 |
+| 套件 | 修復的 Bug | 備註 |
 | --- | --- | --- |
-| `elevende-assets` | 沒有 Windows 11 圖示和桌布 | 提供 Fluent 風格圖示、桌布、Openbox/picom 配置 |
-| `elevende-core` | 沒有 Windows 11 任務欄 | 工作列、開始功能表、通知中心、鎖定畫面、Win+R、Ctrl+Alt+Del |
-| `elevende-calc` | 沒有小算盤 | Windows 11 風格計算機 |
-| `elevende-notepad` | 沒有記事本 | Windows 11 風格文字編輯器 |
-| `elevende-photos` | 沒有相片 | Windows 11 風格圖片檢視器 |
-| `elevende-taskmgr` | 沒有工作管理員 | Windows 11 風格系統監控 |
-| `elevende-settings` | 沒有設定 | Windows 11 風格設定面板 |
-| `elevende-explorer` | 沒有檔案總管 | Windows 11 風格檔案管理器（Lindows Explorer） |
-| `elevende-screenshot` | 沒有截圖工具 | Windows 11 風格截圖工具 |
+| `elevende-assets` | 沒有 Windows 11 圖示和桌布 | 所有elevende系列皆依賴此 |
+| `elevende-core` | 沒有 Windows 11 任務欄 | 附加工作列、開始功能表、通知中心、鎖定畫面、Win+R、Ctrl+Alt+Del |
+| `elevende-calc` | 沒有小算盤 | |
+| `elevende-notepad` | 沒有記事本 | |
+| `elevende-photos` | 沒有相片 | |
+| `elevende-taskmgr` | 沒有工作管理員 | |
+| `elevende-settings` | 沒有設定 | |
+| `elevende-explorer` | 沒有檔案總管 | |
+| `elevende-screenshot` | 沒有截圖工具 | |
 
 #### 安裝 ElevenDE
 
