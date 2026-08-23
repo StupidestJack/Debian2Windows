@@ -62,6 +62,7 @@ sudo apt install winver
 | `mkwin` | [macOS-Terminal/mkwin](https://github.com/macOS-Terminal/mkwin) | 從原始碼建構赤石科技的套件管理器 |
 | `regedit` | [heyManNice/regedit](https://github.com/heyManNice/regedit) | 修復 Linux 沒有登錄編輯程式的 Bug |
 | `service` | [StupidestJack/ServiceForLinux](https://github.com/StupidestJack/ServiceForLinux/) | 修復 Linux 沒有 Service 的 Bug |
+| `vbs` | [Linming-XHL/ZakoVBS](https://github.com/Linming-XHL/ZakoVBS) | 修復 Linux 沒有 VBS 的 Bug |
 | `winver` | [DeepslateQAQ/linux-winver](https://github.com/DeepslateQAQ/linux-winver) | 修復 Linux 沒有 `winver` 的 Bug |
 | `windowshit` | [HelloAIXIAOJI/windowshit](https://github.com/HelloAIXIAOJI/windowshit) | 修復 Linux 沒有 24 種 Windows 命令的 Bug |
 
@@ -164,6 +165,7 @@ sudo apt install elevende-core elevende-explorer
 - [@xusk1234](https://github.com/xusk1234)
 - [@StupidestJack](https://github.com/StupidestJack)
 - [@SYSTEM-Intel-MIC](https://github.com/SYSTEM-Intel-MIC)
+- [@Linming-XHL](https://github.com/Linming-XHL)
 
 ### 倉庫維護者
 
