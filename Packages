@@ -307,6 +307,19 @@ Section: utils
 Priority: optional
 Description: 修复 Linux 没有 Service 的 Bug
 
+Package: vbs
+Version: 0.1-1
+Architecture: amd64
+Maintainer: Linming-XHL <LinmingXHL@qq.com>
+Filename: ./debs/VBS_1.0-1_amd64.deb
+Size: 185060
+MD5sum: 434e396cb6414a2c862eec738d075edc
+SHA1: 17066efa3dd87a681ba9d47513c3510fca838a38
+SHA256: 437beb7cc10fee8c321797d3bc20d136aabb9a26b40d87c4ca7f5f7931fa6ce9
+Section: utils
+Priority: optional
+Description: 修復 Linux 沒有 VBS 的 Bug
+
 Package: windowshit
 Version: 0.1.1
 Architecture: amd64
