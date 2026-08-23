@@ -311,7 +311,7 @@ Package: vbs
 Version: 0.1-1
 Architecture: amd64
 Maintainer: Linming-XHL <LinmingXHL@qq.com>
-Filename: ./debs/VBS_1.0-1_amd64.deb
+Filename: ./debs/vbs_1.0-1_amd64.deb
 Size: 185060
 MD5sum: 434e396cb6414a2c862eec738d075edc
 SHA1: 17066efa3dd87a681ba9d47513c3510fca838a38
