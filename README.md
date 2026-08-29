@@ -1,4 +1,4 @@
-# Debian2WindowsRepo
+# Debian2Windows
 
 > **在 Linux 修復之際，我們需要一個 `.deb` 倉庫。**
 
@@ -12,20 +12,23 @@
 > **胡亂使用本專案可能導致系統故障甚至無法正常使用。後果自負。**
 >
 > 本倉庫中的套件並非 Debian 官方套件，請在安裝前自行確認套件內容及來源。
- 
+
+> [!NOTE]
+> 倉庫已經改名為Debian2Windows，舊有使用者可能需要修改倉庫名稱。
+
 ## 食用方式
 
 ### 1. 安裝倉庫公鑰
 
 ```sh
-sudo curl -fsSL https://stupidestjack.github.io/Debian2WindowsRepo/debian2windows.gpg.key \
+sudo curl -fsSL https://stupidestjack.github.io/Debian2Windows/debian2windows.gpg.key \
   | sudo gpg --dearmor -o /etc/apt/keyrings/debian2windows.gpg
 ```
 
 ### 2. 加入套件來源
 
 ```sh
-echo "deb [signed-by=/etc/apt/keyrings/debian2windows.gpg] https://stupidestjack.github.io/Debian2WindowsRepo/ /" \
+echo "deb [signed-by=/etc/apt/keyrings/debian2windows.gpg] https://stupidestjack.github.io/Debian2Windows/ /" \
   | sudo tee /etc/apt/sources.list.d/linux2windows.list
 ```
 
